@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+@import url(../intro.css);
+
+
+@font-face {
+    font-family: "ESRebondGrotesque Bold";
+    src: url(../fonts/ESRebondGrotesque-Bold.woff2)format('woff2'),
+
+}
+
+@font-face {
+    font-family: "ESRebondGrotesque Medium";
+    src: url(../fonts/ESRebondGrotesque-Medium.woff2)format('woff2');
+}
+
+@font-face {
+    font-family: "ESRebondGrotesque Regular";
+    src: url(../fonts/ESRebondGrotesque-Regular.woff2)format('woff2');
+}
+
+@font-face {
+    font-family: "ESRebondGrotesque Light";
+    src: url(../fonts/ESRebondGrotesque-Light.woff2)format('woff2'), ;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+
+}
+
+body {
+    background-color: #F0E6D8;
+    margin: 0;
+}
+
+h2 {
+    font-family: "ESRebondGrotesque Bold";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 85%;
+    width: auto;
+    text-align: center;
+}
+
+
+
+.titulo {
+    text-align: center;
+}
+
+
+main img {
+    border-radius: 20px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    width: 60%;
+}
+
+.lanzamiento-foto {
+    width: auto;
+}
+
+.glosario img {
+    height: 456px;
+}
+
+.deudas-intro img {
+    height: 469px;
+}
+
+main {
+    padding: 0px 320px 100px;
+}
+
+main p {
+    font-size: 20px;
+    line-height: 47px;
+
+}
+
+main h2 {
+    padding: 70px 0px 20px 0px;
+}
+
+.perfil-card {
+    display: flex;
+}
+
+.img-perfil-card {
+    display: flex;
+}
+
+.img-perfil-card img {
+    width: 50px;
+    height: 50px;
+    margin: 1rem;
+    border-radius: 50%;
+}
+
+.text-perfil-card {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0rem;
+    padding: 10px 0px;
+}
+
+.text-perfil-card span {
+    font-size: 18px;
+}
+
+.textito {
+    font-style: italic;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.deudas li {
+    list-style: decimal;
+    line-height: 47px;
+    font-size: 20px;
+    padding: 10px 0px;
+
+}
+
+.glosario li {
+    line-height: 47px;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.categoria-blog {
+    margin: 1.5rem 0rem;
+    display: flex;
+    gap: 15px;
+}
+
+.categoria-blog span {
+    background-color: #CCA570;
+    color: #fff;
+    padding: .2rem .5rem;
+    border-radius: 4px;
+}
+
+.podcast-link {
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+    font-size: 20px;
+    margin-left: 400px;
+}
+
+.podcast img {
+    width: 80%;
+    object-fit: cover;
+}
+
+.mercadopago {
+    padding-bottom: 80px;
+}
+
+
+@media only screen and (min-width: 1768px) and (max-width: 2953px) {
+    main img {
+        border-radius: 20px;
+
+    }
+
+    .deudas li {
+        list-style: decimal;
+        line-height: 47px;
+        font-size: 20px;
+        padding: 20px 0px;
+
+    }
+
+    .glosario li {
+        line-height: 47px;
+        font-size: 20px;
+        padding: 20px 0px;
+    }
+
+    main {
+        padding: 0px 320px;
+    }
+
+    main p {
+        font-size: 22px;
+        line-height: 47px;
+        padding: 10px 0px;
+        margin: 0px;
+    }
+
+    main h2 {
+        padding: 70px 0px 20px 0px;
+    }
+
+
+    .perfil-card {
+        display: flex;
+    }
+
+    .img-perfil-card {
+        display: flex;
+    }
+
+    .img-perfil-card img {
+        width: 50px;
+        height: 50px;
+        margin: 1rem;
+        border-radius: 50%;
+    }
+
+    .text-perfil-card {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0rem;
+        padding: 10px 0px;
+    }
+
+
+
+
+
+
+}
+
+@media only screen and (min-width: 868px) and (max-width: 1253px) {
+    main {
+        padding: 0px 180px;
+    }
+
+    main img {
+        border-radius: 20px;
+
+        margin: auto;
+        display: flex;
+        width: auto;
+        object-fit: contain;
+    }
+
+}
+
+@media screen and (max-width: 868px) {
+
+    main h2 {
+      padding: 0px;
+      line-height: 125%;
+    }
+
+    .img-perfil-card {
+        display: flex;
+        width: 80px;
+    }
+
+    .img-perfil-card img {
+        width: 60px;
+        height: 60px;
+        /* margin: 1rem; */
+        border-radius: 50%;
+    }
+
+    .intro {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .perfil-card {
+        display: flex;
+        padding-top: 10px;
+    }
+
+    main {
+        padding: 0px 40px;
+    }
+
+    main p {
+        font-size: 18px;
+        line-height: 47px;
+    }
+
+    main h2 {
+        padding: 20px 0px 50px;
+        font-size: 55px;
+    }
+
+    main img {
+        border-radius: 20px;
+        height: 320px;
+        margin: auto;
+        display: flex;
+        width: 330px;
+        object-fit: cover;
+    }
+
+    .deudas li {
+        list-style: decimal;
+        line-height: 47px;
+        font-size: 18px;
+        padding: 10px 0px;
+    }
+
+    .glosario img {
+        height: auto;
+    }
+    .glosario li {
+        line-height: 47px;
+        font-size: 18px;
+        padding: 10px 0px;
+    }
+
+    .deudas-intro {
+        transform: none;
+    }
+
+    .deudas-intro img {
+        height: auto;
+    }
+
+    .categoria-blog {
+        margin: 1rem;
+        display: flex;
+        gap: 15px;
+    }
+
+    .podcast img {
+        width: 100%;
+        
+    }
+
+
+}

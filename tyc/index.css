@@ -1,0 +1,147 @@
+@import url("../styles/legales.css");
+@import url("../intro.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+@font-face {
+    font-family: "ESRebondGrotesque Bold";
+    src: url(../fonts/ESRebondGrotesque-Bold.woff2)format('woff2'),
+
+}
+
+@font-face {
+    font-family: "ESRebondGrotesque Medium";
+    src: url(../fonts/ESRebondGrotesque-Medium.woff2)format('woff2');
+}
+
+@font-face {
+    font-family: "ESRebondGrotesque Regular";
+    src: url(../fonts/ESRebondGrotesque-Regular.woff2)format('woff2');
+}
+
+@font-face {
+    font-family: "ESRebondGrotesque Light";
+    src: url(../fonts/ESRebondGrotesque-Light.woff2)format('woff2'), ;
+}
+
+/* main {
+    display: flex;
+    width: 1441px;
+    padding: 80px 190px 120px 190px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+} */
+
+.tyc-intro {
+    display: flex;
+    padding: 80px 130px 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.tyc-intro h2 {
+    color: var(--Base-Black, #171C21);
+    text-align: center;
+    font-family: "ESRebondGrotesque Bold";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 59.5px */
+    padding-bottom: 20px;
+}
+
+.tyc-intro span,
+.terminosycondiciones span {
+    color: #60605F;
+
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "ESRebondGrotesque Light";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.5%;
+    /* 16.88px */
+    letter-spacing: 1.6px;
+
+}
+
+.terminosycondiciones span {
+    display: flex;
+    padding-bottom: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.tyc-intro p {
+    color: #60605F;
+
+    text-align: center;
+    font-family: "Inter";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 36.4px */
+    letter-spacing: -0.28px;
+}
+
+.terminosycondiciones {
+    background: #FFF9EC;
+    padding: 80px 190px 120px 190px;
+
+}
+
+.terminosycondiciones p {
+    font-size: 22px;
+    font-family: "ESRebondGrotesque Light";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    padding-bottom: 20px;
+
+}
+
+.terminosycondiciones h3 {
+    font-family: "ESRebondGrotesque Light";
+    padding-bottom: 20px;
+    line-height: 120%;
+}
+
+.terminosycondiciones ul {
+    font-family: "ESRebondGrotesque Light";
+    font-size: 22px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
+
+@media screen and (max-width: 807px) {
+
+    .tyc-intro {
+        display: flex;
+        width: auto;
+        padding: 60px 30px 80px 30px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 37px;
+    }
+
+    .tyc-intro h2 {
+        text-align: center;
+        font-family: "ESRebondGrotesque Bold";
+        font-size: 55px;
+        padding-bottom: 0px;
+    }
+
+    .terminosycondiciones {
+        background: #FFF9EC;
+        padding: 80px 90px 120px 90px;
+    }
+}

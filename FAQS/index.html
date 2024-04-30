@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="somosfin">
+    <meta property="og:description" content="Preguntas Frecuentes">
+    <meta property="og:image" content="https://www.somosfin.com/assets/logofavicon.png">
+    <meta property="og:url" content="https://www.somosfin.com/">
+    <title> somosfin | preguntas frecuentes </title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/logofavicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const titulos = document.querySelectorAll(".titulo");
+            titulos.forEach((titulo) => {
+                titulo.addEventListener("click", function () {
+                    const item = titulo.parentElement;
+                    item.classList.toggle("open");
+                });
+            });
+        });
+
+
+        window.addEventListener("scroll", () => {
+            console.log("Scrolling")
+            const headerIntro = document.querySelector("#header");
+            if (window.scrollY > 100) {
+                headerIntro.classList.add("scrolled");
+            } else {
+                headerIntro.classList.remove("scrolled");
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="headerIntro" id="header">
+            <a href="../">
+                <img class="logoSF" src="../assets/somosfin_logo.png" alt="logoSomosFin">
+            </a>
+            <nav>
+                <div class="menu-toggle" id="menu-toggle">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul class="menu" id="menu">
+                    <li><a href="../">INICIO</a></li>
+                    <li><a href="../planes">MEMBRESÍA</a></li>
+                    <li><a href="../blog">BLOG</a></li>
+                    <div class="botonHeader">
+                        <a href="../form/" class="botonLogin"> Comienza aquí
+                        </a>
+                    </div>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="faqs-intro">
+            <span> PREGUNTAS FRECUENTES </span>
+            <h2> ¡Es normal tener preguntas!</h2>
+            <p> Por eso te las hemos juntado todas aquí para que resuelvas tus dudas </p>
+        </div>
+
+        <div class="preguntasfrecuentes">
+
+            <span>PREGUNTAS FRECUENTES</span>
+            <div class="acordeon">
+                <div class="item">
+                    <h3 class="titulo">¿Qué es Somosfin? <i class="fas fa-chevron-down"></i></h3>
+                    <div class="contenido">
+                        <p>En somosfin te acompañamos a alcanzar tus metas y el bienestar financiero, con herramientas,
+                            capacitación,
+                            y una
+                            persona siempre disponible que te guiará en tus decisiones sobre ahorro, inversión y
+                            planificación.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="titulo">¿En qué me puede ayudar Somosfin? <i class="fas fa-chevron-down"></i> </h3>
+                    <div class="contenido">
+                        <p>Somosfin puede ayudarte a entender tus ingresos, tus gastos, planificar tus finanzas,
+                            encontrar
+                            un camino
+                            para
+                            desendeudarse, generar ahorros, y otras formas significativas para mejorar tu situación
+                            financiera . Nuestro
+                            objetivo principal es brindarte apoyo en tus metas financieras y ayudarte a alcanzar el
+                            bienestar
+                            financiero. A
+                            través de Somosfin contarás con un acompañante siempre disponible que te ofrecerá
+                            orientación y
+                            acompañamiento
+                            personalizado en todas las áreas importantes de tus finanzas.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="titulo"> ¿Qué no hacemos en Somosfin? <i class="fas fa-chevron-down"></i> </h3>
+                    <div class="contenido">
+                        <p>Somosfin no ofrece préstamos ni ningún otro producto financiero. En caso que necesites
+                            información sobre
+                            cómo
+                            pagar tus deudas hace <a href="../contenido/deudas.html">click acá.</a>
+
+                            Somosfin no hace asesoramientos en inversiones. El servicio de Somosfin incluye
+                            acompañamiento y
+                            educación
+                            pero no
+                            vamos a armar tu cartera de inversiones.
+
+                            Somosfin no comercializa otros servicios o productos correspondientes a otras compañías, ni
+                            recibe
+                            comisiones de
+                            ningún tipo de otras firmas. Somosfin busca ser una solución objetiva y transparente para
+                            acompañar a sus
+                            clientes
+                            a lograr mejorar su bienestar financiero.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="titulo"> ¿Qué es el bienestar financiero? <i class="fas fa-chevron-down"></i> </h3>
+                    <div class="contenido">
+                        <p>Bienestar financiero se refiere a la situación financiera y las decisiones
+                            financieras de una persona que le proporcionan seguridad y libertad en su vida diaria.
+
+                            Bienestar financiero comprende estar en control de las finanzas diarias y mensuales (sin
+                            necesariamente
+                            monitorearlas permanentemente), tener la capacidad de afrontar gastos imprevistos, poder
+                            ahorrar
+                            para
+                            cumplir los
+                            objetivos de vida, y estar al corriente de las posibilidades de generar valor con el dinero.
+
+                            En resumidas cuentas, sentir la libertad de comprender y gestionar tu vida en cuanto a las
+                            finanzas.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="titulo"> ¿Puedo personalizar mis objetivos financieros? <i
+                            class="fas fa-chevron-down"></i>
+                    </h3>
+                    <div class="contenido">
+                        <p>Los objetivos financieros de cada persona son únicos por lo tanto en somosfin buscamos
+                            acompañarte a ir por
+                            la
+                            vida que sea, de acuerdo a tus objetivos, la vida que te proporcione el bienestar y libertad
+                            financiera.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="titulo"> ¿Cómo contrato los servicios de Somosfin? ¿Es pago?<i
+                            class="fas fa-chevron-down"></i> </h3>
+                    <div class="contenido">
+                        <p>El servicio de somosfin comprende una suscripción mensual que cuenta con los primeros 15 días
+                            de
+                            prueba y
+                            luego
+                            es un servicio pago. Para contratar los servicios podes contactarnos al WA: +44 7749 834889,
+                            por
+                            mail en
+                            info@somosfin.com o directamente suscribirte en este <a href="../planes/">link</a></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="titulo"> ¿Puedo cambiar mi suscripción?<i class="fas fa-chevron-down"></i> </h3>
+                    <div class="contenido">
+                        <p>Si. Podes cambiar de membresía en cualquier momento según el nivel de acompañamiento que
+                            prefieras.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="titulo"> ¿Puedo cancelar mi suscripción en cualquier momento? ¿Hay un tiempo mínimo de
+                        permanencia?
+                        <i class="fas fa-chevron-down"></i>
+                    </h3>
+                    <div class="contenido">
+                        <p>Podés cancelar tu suscripción en cualquier momento y no hay tiempo mínimo de permanencia.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="titulo"> ¿Cuál es la diferencia entre un acompañante financiero y un asesor financiero?
+                        <i class="fas fa-chevron-down"></i>
+                    </h3>
+                    <div class="contenido">
+                        <p>Un acompañante financiero va a poder acompañarte (es decir, proporcionarte información
+                            general),
+                            recopilar
+                            información general para ofrecerte el acompañamiento, guiarte sobre algún tema puntual que
+                            no
+                            forme parte de
+                            un
+                            acuerdo continuo y preexistente, recomendarte que no tome más deuda de lo que pueda
+                            permitirse,
+                            recomendarte
+                            que
+                            estudie las ventajas y desventajas de las distintas opciones de endeudamiento, manejo de
+                            finanzas cotidianas
+                            y
+                            opciones de inversión, ofrecerte una explicación equilibrada, neutral y objetiva del
+                            funcionamiento de los
+                            distintos tipos de inversiones o alternativas de endeudamiento.
+
+                            Lo que un acompañante financiero no puede hacer es prestar asesoramiento financiero de
+                            ningún
+                            tipo, asesorar
+                            sobre
+                            las ventajas de una inversión concreta, hacer comentarios o juicios de valor sobre un tipo
+                            concreto de
+                            inversión,
+                            calificar las inversiones con estrellas en función de su rentabilidad sugerirle que solicite
+                            asesoramiento o
+                            asistencia a otra empresa cuando existan acuerdos previos entre Somosfin y dicha empresa,
+                            negociar en su
+                            nombre,
+                            actuar como intermediario para usted al momento de realizar una inversión, recomendarle que
+                            suscriba un plan
+                            de
+                            reestructuración de deudas, prestar asesoramiento legal, contable o fiscal ni aconsejarte en
+                            qué
+                            fondos
+                            invertir,
+                            qué productos hipotecarios o de seguro adquirir.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="titulo"> ¿Somosfin me recomienda donde invertir? <i class="fas fa-chevron-down"></i>
+                    </h3>
+                    <div class="contenido">
+                        <p>No, nuestro equipo podrá ofrecer una explicación equilibrada, neutral y objetiva del
+                            funcionamiento de los
+                            distintos tipos de inversiones o alternativas de endeudamiento.
+
+                            Te daremos un marco para que puedas ordenar tus inversiones y mapearlas de una forma
+                            sencilla y
+                            rápida y que
+                            estén
+                            alineadas con tus objetivos.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="titulo"> ¿Cuál va a ser mi canal de comunicación con mi acompañante financiero? <i
+                            class="fas fa-chevron-down"></i> </h3>
+                    <div class="contenido">
+                        <p>El canal de comunicación principal con tu acompañante financiero será mediante Whatsapp en
+                            donde
+                            van a
+                            contar con
+                            un grupo personalizado y las luego durante las reuniones por medio de una plataforma de
+                            video
+                            llamada según
+                            la
+                            periodicidad contratada.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="titulo"> ¿Es posible cambiar de acompañante financiero? <i
+                            class="fas fa-chevron-down"></i>
+                    </h3>
+                    <div class="contenido">
+                        <p>Si. Lo importante es que te sientas cómodo/a con la persona que te va a ayudar con tus
+                            finanzas.
+                            Con la
+                            simple
+                            solicitud al mail de somosfin nos ponemos en contacto para recomendarte otro coach que sea
+                            el
+                            indicado para
+                            vos.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="titulo"> ¿Cómo configurar la herramienta en mi teléfono? <i
+                            class="fas fa-chevron-down"></i>
+                    </h3>
+                    <div class="contenido">
+                        <p>🍎 Desde un teléfono Apple: si haces click en el link se va a abrir en Safari y donde está el
+                            icono de
+                            compartir
+                            hacer click "Agregar a Inicio".
+                            <br>
+                            📱Desde un teléfono Android: se va a abrir en Chrome, ir a los 3 puntitos de arriba a la
+                            derecha
+                            y hacer
+                            click en
+                            "Agregar a Pantalla Principal".
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="titulo"> ¿Cómo me comunico con Somosfin?<i class="fas fa-chevron-down"></i> </h3>
+                    <div class="contenido">
+                        <p>Somosfin provee atención al cliente de forma gratuita, otorgando a usted la posibilidad de
+                            contactarse con
+                            la
+                            empresa a través de correo electrónico y/o a través de sus líneas de atención gratuita que
+                            se
+                            mencionan a
+                            continuación: (i) info@somosfin.com o (ii) por whatsapp a la línea +44 7749834889</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <h3 class="titulo"> ¿Qué puede hacer Somosfin mis datos? ¿Es seguro?<i
+                            class="fas fa-chevron-down"></i>
+                    </h3>
+                    <div class="contenido">
+                        <p>Como empresa de servicios de acompañamiento financiero, tenemos la importante responsabilidad
+                            de
+                            proteger
+                            los
+                            datos que compartas con nosotros y garantizar el mantenimiento de su privacidad. Entendemos
+                            que
+                            vas
+                            compartir
+                            mucha información personal con nosotros. Nos comprometemos a no obtener más de la que
+                            necesitamos y a
+                            mantener a
+                            salvo la que obtenemos. Cualquier uso de los datos personales se realiza de conformidad con
+                            la
+                            legislación
+                            sobre
+                            datos en este <a href="../politicas/"> link</a></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="titulo"> ¿Qué pasa con mi suscripción si no me gustó el servicio?<i
+                            class="fas fa-chevron-down"></i>
+                    </h3>
+                    <div class="contenido">
+                        <p>Durante los primeros 30 días del servicio vas a poder cancelar tu suscripción sin costo
+                            alguno.
+                            En caso que
+                            usted cuente con la membresía y desee cancelar la suscripción, puede hacerlo en cualquier
+                            momento y sin
+                            ningún
+                            tipo de restricción ni cargo adicional.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="titulo"> ¿Quién es mi acompañante?<i class="fas fa-chevron-down"></i>
+                    </h3>
+                    <div class="contenido">
+                        <p>Somos un equipo de profesionales, pero sobre todo, gente que busca combatir la desigualdad en
+                            la
+                            educación
+                            financiera y empoderar a las personas para desarrollar su potencial e impulsar su calidad de
+                            vida. Con un
+                            acompañamiento humano, imparcial y honesto, buscamos empoderar a las personas para
+                            desarrollar
+                            su potencial
+                            e
+                            impulsar su calidad de vida.
+
+                            El acompañamiento financiero no es una actividad regulada por la Autoridad de Conducta
+                            Financiera (FCA), y
+                            los
+                            coaches, como individuos, tampoco están regulados por la Autoridad de Conducta Financiera.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="titulo"> ¿Puedo ir en pareja?<i class="fas fa-chevron-down"></i>
+                    </h3>
+                    <div class="contenido">
+                        <p>Si, en caso de estar revisando las finanzas del hogar como una economía conjunta pueden ir a
+                            las
+                            reuniones
+                            indistintamente ambos miembros de la economía familiar o alguno de ellos.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="titulo"> ¿Qué medios de pago aceptan?<i class="fas fa-chevron-down"></i>
+                    </h3>
+                    <div class="contenido">
+                        <p> Aceptamos todos los medios de pago y son muy bienvenidas especialmente las tarjetas de
+                            DÉBITO.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <h3 class="titulo"> ¿De dónde es somosfin?<i class="fas fa-chevron-down"></i>
+                    </h3>
+                    <div class="contenido">
+                        <p>Somosfin es propiedad de la empresa Somosfin Ltd. y se encuentra inscripta en el Reino Unido.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="form-footer">
+            <p> ¿ALGUNA PREGUNTA?</p>
+            <h3> ¡Hablemos! </h3>
+            <p> Prueba una reunión con nosotros para resolver cualquier duda</p>
+            <a href="https://calendly.com/somosfin/30min" target="_blank"> Prueba una reunión gratis </a>
+        </div>
+        <div class="footerSF">
+            <img src="../assets/somosfin_logo.png" alt="">
+            <div class="footerLegal">
+                <div class="footer1">
+                    <h5><strong> Sobre Nosotros </strong></h5>
+                    <p> <a href="mailto:info@somosfin.com" class="footer-links"> Contacto</a> </p>
+                    <p> <a href="https://forms.gle/wsSyTsPmJMvG2Gpn6" class="footer-links"> Sumate a
+                            nuestro equipo </a> </p>
+                    <p> <a href="#" class="footer-links"> Preguntas frecuentes </a>
+                    </p>
+                </div>
+                <div class="footer2">
+                    <h5><strong> Legal </strong></h5>
+                    <p> <a href="../politicas" class="footer-links"> Política de privacidad</a>
+                    </p>
+                    <p> <a href="../tyc" class="footer-links"> Términos y
+                            condiciones</a>
+                    </p>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="subinfo">
+            <div class="footer-bottom">
+                <span> ©2023 somosfin</span>
+            </div>
+
+            <div class="footerRedes">
+                <a href="https://www.linkedin.com/company/somosfin/"> LinkedIn </a>
+                <a href="https://www.instagram.com/somos.fin/"> Instagram </a>
+                <a href="https://twitter.com/somosfin"> Twitter </a>
+            </div>
+
+        </div>
+
+
+        <!-- <span class="ICO"> Somosfin es una compañía registrada en Inglaterra y Gales como Somosfin Ltd (Nro 14249475),
+            36 Streatley Road, Londres NW6 7LS. Somosfin Ltd se encuentra registrada en la Information
+            Commissioner's Office
+            (ICO, Oficina de Protección de Datos del Reino Unido) bajo el número de licencia ZB603110. Somosfin Ltd es
+            un servicio de acompañamiento financiero, y no se encuentra regulado por la Financial Conduct Authority
+            (FCA).
+        </span> -->
+    </footer>
+
+
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer
+        src="//js-eu1.hs-scripts.com/139814969.js"></script>
+    <!-- End of HubSpot Embed Code -->
+
+    <script src="../index.js"></script>
+</body>
+
+</html>

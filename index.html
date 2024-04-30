@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="somosfin">
+    <meta property="og:description" content="Toma el control de tus finanzas y alcanza tus metas.
+     Aprende a ordenar tus finanzas, ahorrar e invertir con acompañamiento personalizado.
+     Agenda una reunión y comencemos a trabajar.">
+    <meta property="og:image" content="https://www.somosfin.com/assets/logofavicon.png">
+    <meta property="og:url" content="https://www.somosfin.com/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/logofavicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title> somosfin </title>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const titulos = document.querySelectorAll(".titulo");
+            titulos.forEach((titulo) => {
+                titulo.addEventListener("click", function () {
+                    const item = titulo.parentElement;
+                    item.classList.toggle("open");
+                });
+            });
+        });
+
+
+        window.addEventListener("scroll", () => {
+            console.log("Scrolling")
+            const headerIntro = document.querySelector("#header");
+            if (window.scrollY > 100) {
+                headerIntro.classList.add("scrolled");
+            } else {
+                headerIntro.classList.remove("scrolled");
+            }
+        });
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D3H163FP9P"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-D3H163FP9P');
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <div class="headerIntro" id="header">
+            <a href="./">
+                <img class="logoSF" src="./assets/somosfin_logo.png" alt="logoSomosFin">
+            </a>
+
+            <nav class="navbar-principal">
+                <div class="menu-toggle" id="menu-toggle">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul class="menu" id="menu">
+                    <li><a href="./">INICIO</a></li>
+                    <li><a href="./planes">MEMBRESÍA</a></li>
+                    <li><a href="./blog">BLOG</a></li>
+                    <div class="botonHeader">
+                        <a href="./form/" class="botonLogin"> Comienza aquí
+                        </a>
+                    </div>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="texto-intro">
+            <h2>
+                Comienza a construir tu bienestar financiero
+            </h2>
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="134" height="134" viewBox="0 0 134 134" fill="none">
+                <circle cx="67" cy="67" r="67" fill="#FFCD65" />
+            </svg> -->
+        </div>
+        <div class="intro">
+            <p>
+                Prueba una reunión gratis con uno de nuestros coaches sin compromiso y dá el primer paso para cumplir
+                tus metas
+            </p>
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="122" height="102" viewBox="0 0 122 142" fill="none">
+                <path
+                    d="M121.136 4.3361C121.397 2.42076 120.056 0.656729 118.14 0.396015C116.225 0.135301 114.461 1.47664 114.2 3.39197L121.136 4.3361ZM0.788775 120.776C-0.18664 122.445 0.375495 124.589 2.04434 125.564L29.2397 141.459C30.9086 142.435 33.0522 141.873 34.0276 140.204C35.003 138.535 34.4409 136.391 32.772 135.416L8.59834 121.287L22.7275 97.1131C23.7029 95.4442 23.1408 93.3006 21.4719 92.3252C19.8031 91.3498 17.6595 91.912 16.6841 93.5808L0.788775 120.776ZM114.2 3.39197C110.157 33.0976 82.2504 98.3539 2.92267 119.157L4.6983 125.928C87.4827 104.219 116.821 36.0359 121.136 4.3361L114.2 3.39197Z"
+                    fill="black" />
+            </svg> -->
+
+            <img src="./assets/img-index.png" alt="">
+        </div>
+
+        <div class="botonesIndex">
+            <a href="./form/" class="botonReunion"> Comienza aquí</a>
+            <a href="./planes/" class="botonPlanes"> Conoce nuestros planes</a>
+        </div>
+
+    </main>
+
+    <!-- SECCION EXPERIENCIA-->
+    <section>
+        <div class="experienciaSF">
+            <div class="experiencia-intro">
+                <span> LAS CUATRO C </span>
+                <h3> La experiencia somosfin</h3>
+                <p> Descubre todas tus posibilidades con nuestro servicio </p>
+            </div>
+            <div class="experiencia-cuadro">
+                <div class="experiencias">
+                    <!-- <ul class="slides">
+                        <input type="radio" name="radio-btn" id="img-1" checked />
+                        <li class="slide-container">
+                            <div class="slide">
+                                <img src="./assets/exp-1.png" />
+                            </div>
+                            <div class="nav">
+                                <label for="img-6" class="prev">&#x2039;</label>
+                                <label for="img-2" class="next">&#x203a;</label>
+                            </div>
+                        </li>
+                    
+                        <input type="radio" name="radio-btn" id="img-2" />
+                        <li class="slide-container">
+                            <div class="slide">
+                              <img src="./assets/exp-2.png" />
+                            </div>
+                            <div class="nav">
+                                <label for="img-1" class="prev">&#x2039;</label>
+                                <label for="img-3" class="next">&#x203a;</label>
+                            </div>
+                        </li>
+                    
+                        <input type="radio" name="radio-btn" id="img-3" />
+                        <li class="slide-container">
+                            <div class="slide">
+                              <img src="./assets/exp-3.png" />
+                            </div>
+                            <div class="nav">
+                                <label for="img-2" class="prev">&#x2039;</label>
+                                <label for="img-4" class="next">&#x203a;</label>
+                            </div>
+                        </li>
+                    
+                        <input type="radio" name="radio-btn" id="img-4" />
+                        <li class="slide-container">
+                            <div class="slide">
+                              <img src="./assets/exp-4.png" />
+                              <p>hbjhsabvhjdsbvhja</p>
+                            </div>
+                            <div class="nav">
+                                <label for="img-3" class="prev">&#x2039;</label>
+                                <label for="img-1" class="next">&#x203a;</label>
+                            </div>
+                        </li>
+                      
+                    
+                        <li class="nav-dots">
+                          <label for="img-1" class="nav-dot" id="img-dot-1"></label>
+                          <label for="img-2" class="nav-dot" id="img-dot-2"></label>
+                          <label for="img-3" class="nav-dot" id="img-dot-3"></label>
+                          <label for="img-4" class="nav-dot" id="img-dot-4"></label>
+                         
+                        </li>
+                    </ul>
+                    -->
+                    <div class="experiencia1">
+                        <!-- <img src="./assets/Polygon-exp.png" alt="" class="vector">  -->
+                        <img src="./assets/exp-1.png" alt="">
+                        <p>Control de tus finanzas</p>
+                    </div>
+                    <div class="experiencia2">
+                        <!-- <img src="./assets/Vector-exp.png" alt="" class="vector2"> -->
+                        <img src="./assets/exp-2.png" alt="">
+                        <p> Claridad en tus objetivos</p>
+                    </div>
+                    <div class="experiencia3">
+                        <!-- <img src="./assets/Ellipse-exp.png" alt="" class="vector3"> -->
+                        <img src="./assets/exp-3.png" alt="">
+                        <p>Comprensión de finanzas</p>
+                    </div>
+                    <div class="experiencia4">
+                        <!-- <img src="./assets/Vector2-exp.png" alt="" class="vector4"> -->
+                        <img src="./assets/exp-4.png" alt="">
+                        <p>Confianza en tus decisiones</p>
+                    </div>
+                </div>
+            </div>
+            <a href="./form/" class="boton-experiencia"> Comienza aquí </a>
+        </div>
+    </section>
+
+    <!-- SECCION SUSCRIPCION -->
+    <div class="suscripcionSF">
+        <div class="suscripcion-intro">
+            <span> QUE OFRECEMOS </span>
+            <h3> Una suscripción para mejorar tus finanzas</h3>
+            <p> Descubre todas tus posibilidades con nuestro servicio </p>
+        </div>
+        <div class="suscripcion-carousel">
+
+            <div class="suscripcion1">
+                <img src="./assets/Suscripcion-1.png" alt="">
+                <p><strong>App de presupuesto y gestión</strong></p>
+                <p>Una herramienta personalizada para que organices y administres tus ingresos, gastos, deudas, ahorros
+                    e inversiones.
+                </p>
+            </div>
+            <div class="suscripcion2">
+                <img src="./assets/Suscripcion-2.png" alt="">
+                <p><strong> Orientación personalizada</strong></p>
+                <p>Una persona dedicada a ayudarte. Con reuniones periódicas y contacto vía WhatsApp, para que te
+                    sientas siempre acompañado.</p>
+
+            </div>
+            <div class="suscripcion3">
+                <img src="./assets/Suscripcion-3.png" alt="">
+                <p><strong> Contenido financiero a tu medida</strong></p>
+                <p>La información clave sobre finanzas pensada para tus objetivos y necesidades. Aprende cómo funciona
+                    "el sistema".</p>
+            </div>
+        </div>
+
+        <a href="./planes/" class="boton-suscripcion"> Consulta nuestros planes </a>
+
+    </div>
+
+    <div class="slide">
+        <div class="slide-inner">
+            <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden=""
+                checked="checked">
+            <div class="slide-item">
+                <img src="./assets/suscripciona-carrousel1.png">
+            </div>
+            <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="./assets/suscripcion-carrousel2.png">
+            </div>
+            <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="./assets/suscripcion-carrousel3.png">
+            </div>
+            <label for="slide-3" class="slide-control prev control-1">‹</label>
+            <label for="slide-2" class="slide-control next control-1">›</label>
+            <label for="slide-1" class="slide-control prev control-2">‹</label>
+            <label for="slide-3" class="slide-control next control-2">›</label>
+            <label for="slide-2" class="slide-control prev control-3">‹</label>
+            <label for="slide-1" class="slide-control next control-3">›</label>
+            <ol class="slide-indicador">
+                <li>
+                    <label for="slide-1" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-2" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-3" class="slide-circulo">•</label>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <a href="./planes/" class="boton-suscripcion1"> Consulta nuestros planes </a>
+
+    <!-- SECCION USER STORIES -->
+    <div class="historiasUsuario">
+        <div class="suscripcion-intro">
+            <span> QUE DICEN NUESTROS SUSCRIPTORES </span>
+            <h3> Dicen que una reseña vale más que mil anuncios </h3>
+            <p> Nos tomamos muy en serio la opinión de nuestros usuarios </p>
+        </div>
+        <div class="historiaSF">
+            <div class="historia-usuario1">
+                <p>Somosfin te da una paz mental tremenda. Me equilibró. Vivo más tranquilo, me sacó un estrés de la
+                    cabeza
+                    y eso lo llevo a casa. <strong>Ahora puedo dedicarme a lo que me gusta. </strong> </p>
+                <div class="img-historia">
+                    <img src="./assets/US-1.jpg" alt="">
+                    <div class="perfil-historia">
+                        <p> <strong> Gustavo Diaz</strong></p>
+                        <span> Emprendedor. Vive en Argentina</span>
+                    </div>
+                </div>
+            </div>
+            <div class="historia-usuario2">
+                <p> Hoy por hoy, gracias a somosfin, puedo disfrutar de irme de vacaciones o comprar ropa y vivirlo
+                    <strong>
+                        sin
+                        culpa y sin la necesidad de compensar con otra cosa.
+                    </strong>
+                </p>
+                <div class="img-historia">
+                    <img src="./assets/US-3.jpg" alt="">
+                    <div class="perfil-historia">
+                        <p> <strong> Laura Reynoso </strong></p>
+                        <span> Psicóloga. Vive en España</span>
+                    </div>
+                </div>
+            </div>
+            <div class="historia-usuario3">
+                <p> Desde que saldé todas las deudas que tenía, nunca más volví a tener una. <strong>
+                        En somosfin me ayudaron a
+                        ser
+                        consciente de mis finanzas personales para poder gastar y ahorrar con consciencia.
+                    </strong> </p>
+                <div class="img-historia">
+                    <img src="./assets/US-2.jpg" alt="">
+                    <div class="perfil-historia">
+                        <p> <strong> Soledad Corrieri</strong></p>
+                        <span> Emprendedora. Vive en Italia</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- SECCION CARROUSEL MOBILE HISTORIAS -->
+    <!-- <div class="section full-height over-hide px-4 px-sm-0">
+        <div class="container">
+            <div class="row full-height justify-content-center">
+                <div class="col-lg-10 col-xl-8 align-self-center padding-tb">
+                    <div class="section mx-auto slider-height-padding">
+                        <input class="checkbox frst" type="radio" id="slide-1" name="slider" checked />
+                        <label for="slide-1"></label>
+                        <input class="checkbox scnd" type="radio" name="slider" id="slider-2" />
+                        <label for="slider-2"></label>
+                        <input class="checkbox thrd" type="radio" name="slider" id="slider-3" />
+                        <label for="slider-3"></label>
+                         <input class="checkbox foth" type="radio" name="slider" id="slider-4" />
+                <label for="slider-4"></label> 
+                        <ul>
+                            <li>
+                               span
+
+                            </li>
+                            <li>
+                             span 
+                            </li>
+                            <li>
+                            span 
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- SECCION RESERVAS -->
+    <div class="reservas">
+        <div class="reserva-coach">
+            <h2> Agenda una llamada <br>
+                gratis con somosfin</h2>
+            <p> Coordina una llamada gratuita para contarnos tu caso y enterarte cómo podemos guiarte hacia el bienestar
+                financiero.</p>
+            <a href="https://calendly.com/somosfin/30min" class="boton-reserva" target="_blank"> Prueba una reunión
+                gratis</a>
+        </div>
+        <img src="./assets/Meri_version_verde.png" alt="">
+
+    </div>
+
+    <!-- SECCION PREGUNTAS -->
+    <div class="faqs">
+
+        <div class="faqs-intro">
+            <span> PREGUNTAS FRECUENTES </span>
+            <h2> ¡Es normal tener preguntas!</h2>
+            <p> Por eso te las hemos juntado todas aquí para que resuelvas tus dudas </p>
+        </div>
+
+        <div class="preguntasfrecuentes">
+
+            <div class="acordeon">
+                <div class="item">
+                    <h3 class="titulo">¿Qué es Somosfin? </h3>
+                    <div class="contenido">
+                        <p>En somosfin te acompañamos a alcanzar tus metas y el bienestar financiero, con herramientas,
+                            capacitación,
+                            y una
+                            persona siempre disponible que te guiará en tus decisiones sobre ahorro, inversión y
+                            planificación.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="titulo">¿En qué me puede ayudar Somosfin? </h3>
+                    <div class="contenido">
+                        <p>Somosfin puede ayudarte a entender tus ingresos, tus gastos, planificar tus finanzas,
+                            encontrar
+                            un camino
+                            para
+                            desendeudarse, generar ahorros, y otras formas significativas para mejorar tu situación
+                            financiera . Nuestro
+                            objetivo principal es brindarte apoyo en tus metas financieras y ayudarte a alcanzar el
+                            bienestar
+                            financiero. A
+                            través de Somosfin contarás con un acompañante siempre disponible que te ofrecerá
+                            orientación y
+                            acompañamiento
+                            personalizado en todas las áreas importantes de tus finanzas.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="titulo"> ¿Qué no hacemos en Somosfin? </h3>
+                    <div class="contenido">
+                        <p>Somosfin no ofrece préstamos ni ningún otro producto financiero. En caso que necesites
+                            información sobre
+                            cómo
+                            pagar tus deudas hace click acá.
+
+                            Somosfin no hace asesoramientos en inversiones. El servicio de Somosfin incluye
+                            acompañamiento y
+                            educación
+                            pero no
+                            vamos a armar tu cartera de inversiones.
+
+                            Somosfin no comercializa otros servicios o productos correspondientes a otras compañías, ni
+                            recibe
+                            comisiones de
+                            ningún tipo de otras firmas. Somosfin busca ser una solución objetiva y transparente para
+                            acompañar a sus
+                            clientes
+                            a lograr mejorar su bienestar financiero.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="titulo"> ¿Qué es el bienestar financiero? </h3>
+                    <div class="contenido">
+                        <p>Bienestar financiero se refiere a la situación financiera y las decisiones decisiones
+                            financieras
+                            de una
+                            persona
+                            que le proporcionan seguridad y libertad en su vida diaria.
+
+                            Bienestar financiero comprende estar en control de las finanzas diarias y mensuales (sin
+                            necesariamente
+                            monitorearlas permanentemente), tener la capacidad de afrontar gastos imprevistos, poder
+                            ahorrar
+                            para
+                            cumplir los
+                            objetivos de vida, y estar al corriente de las posibilidades de generar valor con el dinero.
+
+                            En resumidas cuentas, sentir la libertad de comprender y gestionar tu vida en cuanto a las
+                            finanzas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="form-footer">
+            <p> ¿ALGUNA PREGUNTA?</p>
+            <h3> ¡Hablemos! </h3>
+            <p> Prueba una reunión con nosotros para resolver cualquier duda</p>
+            <a href="https://calendly.com/somosfin/30min" target="_blank"> Prueba una reunión gratis </a>
+        </div>
+        <div class="footerSF">
+            <img src="./assets/somosfin_logo.png" alt="">
+            <div class="footerLegal">
+                <div class="footer1">
+                    <h5><strong> Sobre Nosotros </strong></h5>
+                    <p> <a href="mailto:info@somosfin.com" class="footer-links"> Contacto</a> </p>
+                    <p> <a href="https://forms.gle/wsSyTsPmJMvG2Gpn6" class="footer-links"> Sumate a
+                            nuestro equipo </a> </p>
+                    <p> <a href="./FAQS/" class="footer-links"> Preguntas frecuentes </a>
+                    </p>
+                </div>
+                <div class="footer2">
+                    <h5><strong> Legal </strong></h5>
+                    <p> <a href="./politicas/" class="footer-links"> Política de privacidad</a>
+                    </p>
+                    <p> <a href="./tyc/" class="footer-links"> Términos y
+                            condiciones</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="subinfo">
+            <div class="footer-bottom">
+                <span> ©2023 somosfin</span>
+            </div>
+
+            <div class="footerRedes">
+                <a href="https://www.linkedin.com/company/somosfin/"> LinkedIn </a>
+                <a href="https://www.instagram.com/somos.fin/"> Instagram </a>
+                <a href="https://twitter.com/somosfin"> Twitter </a>
+            </div>
+
+        </div>
+
+
+        <!-- <span class="ICO"> Somosfin es una compañía registrada en Inglaterra y Gales como Somosfin Ltd (Nro 14249475),
+            36 Streatley Road, Londres NW6 7LS. Somosfin Ltd se encuentra registrada en la Information
+            Commissioner's Office
+            (ICO, Oficina de Protección de Datos del Reino Unido) bajo el número de licencia ZB603110. Somosfin Ltd es
+            un servicio de acompañamiento financiero, y no se encuentra regulado por la Financial Conduct Authority
+            (FCA).
+        </span> -->
+    </footer>
+
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer
+        src="//js-eu1.hs-scripts.com/139814969.js"></script>
+    <!-- End of HubSpot Embed Code -->
+
+    <script src="./index.js"></script>
+</body>

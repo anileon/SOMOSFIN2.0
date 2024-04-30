@@ -1,0 +1,893 @@
+@import url(../intro.css);
+
+@font-face {
+    font-family: "ESRebondGrotesque Bold";
+    src: url(../fonts/ESRebondGrotesque-Bold.woff2)format('woff2'),
+
+}
+
+@font-face {
+    font-family: "ESRebondGrotesque Medium";
+    src: url(../fonts/ESRebondGrotesque-Medium.woff2)format('woff2');
+}
+
+@font-face {
+    font-family: "ESRebondGrotesque Regular";
+    src: url(../fonts/ESRebondGrotesque-Regular.woff2)format('woff2');
+}
+
+@font-face {
+    font-family: "ESRebondGrotesque Light";
+    src: url(../fonts/ESRebondGrotesque-Light.woff2)format('woff2'), ;
+}
+
+main,
+header {
+    background: #FFE09F;
+}
+
+main {
+    padding-bottom: 60px;
+}
+
+
+
+.planes-intro {
+    display: flex;
+    padding: 40px 130px 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.planes-intro h2 {
+    color: var(--Base-Black, #171C21);
+    text-align: center;
+    font-family: "ESRebondGrotesque Bold";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 59.5px */
+    padding-bottom: 20px;
+}
+
+.planes-intro span,
+.planes span {
+    color: #60605F;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "ESRebondGrotesque Light";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.5%;
+    letter-spacing: 1.6px;
+
+}
+
+.planes span {
+    display: flex;
+    /* padding-bottom: 60px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.planes-intro p {
+    color: #60605F;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 36.4px */
+    letter-spacing: -0.28px;
+}
+
+.planes {
+    display: flex;
+    justify-content: center;
+    padding: 0px 10px;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.plan-light,
+.plan-compact,
+.plan-advance {
+
+    background: #D6CCF6;
+    display: flex;
+    flex-direction: column;
+    height: 543px;
+    width: 389px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 20px;
+}
+
+.titulos-planes {
+    display: flex;
+    flex-direction: column;
+    padding: 20px ;
+}
+
+.titulos-planes h3 {
+    font-family: "ESRebondGrotesque Medium";
+    font-weight: 700;
+    color: #7656E2;
+    font-size: 30px;
+    text-align: justify;
+
+}
+
+.titulos-planes span {
+    font-family: "ESRebondGrotesque Medium";
+    font-weight: 400;
+    color: #7656E2;
+    font-size: 21px;
+    text-align: center;
+}
+
+.texto-planes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    font-family: "ESRebondGrotesque Light";
+    font-size: 21px;
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+}
+
+.botonesPlanes {
+    display: flex;
+    height: 138.333px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    align-self: stretch;
+}
+
+.botonGratis {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    height: 20px;
+    padding: 23px 24px;
+    border-radius: 100px;
+    border: 1px solid #1C1C1A;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.botonSuscripcion {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    height: 20px;
+    width: 230px;
+    padding: 23px 24px;
+    border-radius: 100px;
+    background: #7656E2;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+/* SECCION EXPERIENCIA, SUSCRIPCION */
+.experienciaSF {
+    display: flex;
+    width: auto;
+    padding: 65px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFF9EC;
+}
+
+.experiencia-intro,
+.suscripcion-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding-bottom: 30px;
+
+}
+
+.experiencia-intro span,
+.suscripcion-intro span {
+    display: flex;
+    padding-bottom: 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: #60605F;
+
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "ESRebondGrotesque Light";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.5%;
+    /* 16.88px */
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+.experiencia-intro p {
+    color: #60605F;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: -0.28px;
+}
+
+.experiencia-intro h3, .suscripcion-intro h3{
+    color: #171C21;
+    text-align: center;
+    font-family: "ESRebondGrotesque Bold";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 59.5px */
+    padding-bottom: 0px;
+}
+
+.experiencias {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.experiencia-cuadro {
+    display: flex;
+    align-items: flex-end;
+    gap: 44px;
+}
+
+.experiencia1,
+.experiencia2,
+.experiencia3,
+.experiencia4 {
+    display: flex;
+    /* width: 1441px; */
+    padding: 10px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    border-radius: 20px;
+
+}
+
+.vector {
+    position: absolute;
+    left: 537px;
+    bottom: -729px;
+}
+
+.vector2 {
+    position: absolute;
+    left: 863px;
+    bottom: -637px;
+}
+
+.vector3 {
+    position: absolute;
+    right: 808px;
+    bottom: -739px;
+}
+
+.vector4 {
+    position: absolute;
+    right: 510px;
+    bottom: -617px;
+}
+
+.experiencia1 p,
+.experiencia2 p,
+.experiencia3 p,
+.experiencia4 p {
+    color: #000;
+    text-align: center;
+    font-family: "ESRebondGrotesque Light";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 36.4px */
+    letter-spacing: -0.28px;
+    display: flex;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 5.612px;
+    border-radius: 56.119px;
+    background: rgb(240, 230, 216);
+    transform: translateY(-15px);
+}
+
+
+.boton-experiencia {
+    text-decoration: none;
+    border-radius: 100px;
+    background: #7656E2;
+    color: #FFF9EC;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+    font-family: "ESRebondGrotesque Light";
+}
+
+
+/* SECCION HISTORIA DE USUARIOS */
+.historiasUsuario,
+.reservas {
+    background: #F0E6D8;
+    padding: 60px 0px;
+}
+
+.historiaSF {
+    display: flex;
+    align-items: center;
+    padding: 0px 100px;
+    gap: 20px;
+    align-self: stretch;
+    justify-content: center;
+}
+
+.historia-usuario1,
+.historia-usuario2,
+.historia-usuario3 {
+    display: flex;
+    height: 379px;
+    width: 370px;
+    padding: 30px 25px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 20px;
+    background: #FFF;
+}
+
+.historia-usuario1 p,
+.historia-usuario2 p,
+.historia-usuario3 p {
+    color: #171C21;
+    font-family: "ESRebondGrotesque Light";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    margin: 0px;
+}
+
+.historia-usuario1 span,
+.historia-usuario2 span,
+.historia-usuario3 span {
+    color: #171C21;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    font-family: "ESRebondGrotesque Light";
+    width: 150px;
+
+}
+
+.img-historia {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    align-self: stretch;
+}
+
+.img-historia img {
+    width: 73px;
+    height: 73px;
+    border-radius: 73px;
+}
+
+.perfil-historia {
+    display: flex;
+    flex-direction: column;
+}
+
+/* SECCION PREGUNTAS */
+
+.faqs {
+    background: #FFF9EC;
+}
+
+.faqs-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 30px;
+}
+
+.faqs-intro h2 {
+    color: #171C21;
+    text-align: center;
+    font-family: "ESRebondGrotesque Bold";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.faqs-intro span,
+.preguntasfrecuentes span {
+    color: #60605F;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "ESRebondGrotesque Light";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.5%;
+    /* 16.88px */
+    letter-spacing: 1.6px;
+
+}
+
+.preguntasfrecuentes span {
+    display: flex;
+    padding-bottom: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.faqs-intro p {
+    color: #60605F;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 36.4px */
+    letter-spacing: -0.28px;
+}
+
+.preguntasfrecuentes {
+
+    padding-bottom: 90px;
+}
+
+.preguntasfrecuentes p {
+    font-size: 22px;
+    font-family: "ESRebondGrotesque Light";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    padding-top: 20px;
+
+}
+
+.preguntasfrecuentes h3 {
+    font-family: "ESRebondGrotesque Light";
+    line-height: 120%;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.preguntasfrecuentes ul {
+    font-family: "ESRebondGrotesque Light";
+    font-size: 22px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+}
+
+.acordeon {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Estilo de los ítems */
+.item {
+    background: white;
+    border-radius: 20px;
+    padding: 15px;
+
+}
+
+/* Estilo de los títulos */
+.titulo {
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.titulo i {
+    position: absolute;
+    right: 510px;
+    transition: transform 0.2s ease;
+}
+
+/* Estilo de los contenidos (inicialmente ocultos) */
+.contenido {
+    display: none;
+}
+
+/* Estilo para mostrar el contenido al hacer clic en el título */
+.item.open .contenido {
+    display: block;
+}
+
+
+@media only screen and (max-width: 807px) {
+
+    .menu {
+        background: #FFE09F;
+    }
+
+    .planes-intro {
+        display: flex;
+        padding: 0px 30px 40px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+    }
+
+    .planes-intro h2 {
+        color: var(--Base-Black, #171C21);
+        text-align: center;
+        font-family: "ESRebondGrotesque Bold";
+        font-size: 50px;
+        padding: 0px;
+    }
+
+    .titulos-planes {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px;
+        align-content: flex-start;
+        width:300px
+    }
+    
+    .texto-planes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        font-family: "ESRebondGrotesque Light";
+        font-size: 19px;
+        width: 300px;
+        padding: 0px 30px;
+    }
+
+    .planes {
+        display: flex;
+        justify-content: center;
+        padding: 0px 35px;
+        align-items: flex-start;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .plan-light,
+    .plan-compact,
+    .plan-advance {
+        background: #D6CCF6;
+        display: flex;
+        flex-direction: column;
+        height: 543px;
+        width: auto;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+        border-radius: 20px;
+    }
+
+    .titulos-planes h3 {
+        font-family: "ESRebondGrotesque Medium";
+        font-weight: 700;
+        color: #7656E2;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .titulos-planes span {
+        font-family: "ESRebondGrotesque Medium";
+        font-weight: 400;
+        color: #7656E2;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+
+    .boton-experiencia {
+        text-decoration: none;
+        border-radius: 100px;
+        background: #7656E2;
+        color: #FFF9EC;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        width: 300px;
+        display: flex;
+        text-align: center;
+        font-size: 18px;
+        font-family: "ESRebondGrotesque Light";
+    }
+
+    .experiencias {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experiencia-intro h3, .suscripcion-intro h3 {
+        color: #171C21;
+        text-align: center;
+        font-family: "ESRebondGrotesque Bold";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    .vector,
+    .vector2,
+    .vector3,
+    .vector4 {
+        display: none;
+    }
+
+    .experiencia1,
+    .experiencia2,
+    .experiencia3,
+    .experiencia4 {
+        display: flex;
+        /* width: 1441px; */
+        padding: 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        border-radius: 20px;
+    }
+
+    .experiencia-intro span,
+    .suscripcion-intro span {
+        text-align: center;
+    }
+
+    .historiaSF {
+        display: flex;
+        align-items: center;
+        padding: 0px 100px;
+        gap: 20px;
+        align-self: stretch;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .historia-usuario1,
+    .historia-usuario2,
+    .historia-usuario3 {
+        display: flex;
+        height: 379px;
+        width: 320px;
+        padding: 30px 25px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        border-radius: 20px;
+        background: #FFF;
+    }
+
+    .historia-usuario1 p,
+    .historia-usuario2 p,
+    .historia-usuario3 p {
+        color: #171C21;
+        font-family: "ESRebondGrotesque Light";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+        margin: 0px;
+    }
+
+    .historiasUsuario,
+    .reservas {
+        background: #F0E6D8;
+        padding: 90px 30px;
+    }
+
+    .acordeon {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+
+/* RESPONSIVE TABLET */
+
+@media only screen and (min-width: 808px) and (max-width: 1353px) {
+
+
+    .planes {
+        display: flex;
+        /* WIDTH: 1000PX; */
+        justify-content: center;
+        padding: 0px 10px;
+        align-items: flex-start;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+
+    .plan-light, .plan-compact, .plan-advance {
+        background: #D6CCF6;
+        display: flex;
+        flex-direction: column;
+        height: 543px;
+        width: 339px;
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+        border-radius: 20px;
+    }
+    
+    /* SECCION EXPERIENCIA */
+    .experiencias {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        grid-gap: 30px;
+        padding: 30px;
+
+    }
+
+
+    .vector,
+    .vector2,
+    .vector3,
+    .vector4 {
+        display: none;
+    }
+
+    .experiencia1,
+    .experiencia2,
+    .experiencia3,
+    .experiencia4 {
+        display: flex;
+        /* width: 1441px; */
+        padding: 65px 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        height: 350px;
+    }
+
+
+
+    /* SECCION SUSCRIPCION */
+
+    .experiencia-intro,
+    .suscripcion-intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        padding: 20px;
+    }
+
+}
+
+
+/* RESPONSIVE DESKTOP */
+@media only screen and (min-width: 1353px) and (max-width: 1503px) {
+
+    main {
+        display: flex;
+        padding: 60px 70px 126px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 37px;
+    }
+
+    .texto-intro {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+    }
+
+    h2 {
+        font-family: "ESRebondGrotesque Bold";
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 85%;
+        width: 828px;
+    }
+
+    .intro p {
+        font-family: "Inter";
+        font-size: 23px;
+    }
+
+    .intro svg {
+        position: absolute;
+        right: 793px;
+        bottom: 460px;
+    }
+
+    .intro img {
+        height: 450px;
+        position: absolute;
+        right: 391px;
+        top: 183px;
+    }
+
+    .botonesIndex {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        height: 50px;
+        width: 650px;
+    }
+
+
+
+    .planes-intro {
+        display: flex;
+        padding: 0px 160px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+    }
+
+    .vector {
+        position: absolute;
+        left: 237px;
+        bottom: -1051px;
+    }
+
+    .vector2 {
+        position: absolute;
+        left: 737px;
+        bottom: -112px;
+    }
+
+    .vector3 {
+        position: absolute;
+        right: 669px;
+        bottom: -218px;
+    }
+
+    .vector4 {
+        position: absolute;
+        right: 376px;
+        bottom: -80px;
+    }
+}

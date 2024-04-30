@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../assets/logofavicon.png" type="image/x-icon">
+    <title> Términos y condiciones</title>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const titulos = document.querySelectorAll(".titulo");
+            titulos.forEach((titulo) => {
+                titulo.addEventListener("click", function () {
+                    const item = titulo.parentElement;
+                    item.classList.toggle("open");
+                });
+            });
+        });
+
+
+        window.addEventListener("scroll", () => {
+            console.log("Scrolling")
+            const headerIntro = document.querySelector("#header");
+            if (window.scrollY > 100) {
+                headerIntro.classList.add("scrolled");
+            } else {
+                headerIntro.classList.remove("scrolled");
+            }
+        });
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <div class="headerIntro" id="header">
+            <a href="../">
+                <img class="logoSF" src="../assets/somosfin_logo.png" alt="logoSomosFin">
+            </a>
+            <nav>
+                <div class="menu-toggle" id="menu-toggle">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul class="menu" id="menu">
+                    <li><a href="../">INICIO</a></li>
+                    <li><a href="../planes">MEMBRESÍA</a></li>
+                    <li><a href="../blog">BLOG</a></li>
+                    <div class="botonHeader">
+                        <a href="../form/" class="botonLogin"> Comienza aquí
+                        </a>
+                    </div>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="tyc-intro">
+            <span> TÉRMINOS Y CONDICIONES </span>
+            <h2> Todo lo que tenés <br> que saber de nosotros </h2>
+            <p> Te dejamos aquí nuestros términos y condiciones de uso </p>
+        </div>
+
+        <div class="terminosycondiciones">
+            <span> TÉRMINOS Y CONDICIONES</span>
+            <h3>Términos y condiciones</h3>
+            <h3> Aplicación de estos términos y condiciones </h3>
+            <p> Estos términos y condiciones tienen carácter legal son acordados entre usted y Somosfin Ltd. (en
+                adelante
+                “Somosfin”) y usted los acepta al utilizar cualquiera de los servicios y tipos de suscripciones
+                ofrecidos
+                por
+                Somosfin. Si un tribunal o autoridad competente considera que alguna parte de estos términos y
+                condiciones
+                es
+                inválida, ilegal o inaplicable en cualquier medida, eliminaremos la parte pertinente y el resto de los
+                términos
+                y condiciones seguirán siendo válidos y aplicables en la mayor medida permitida por las leyes de
+                Inglaterra.
+
+                Antes de ser cliente de Somosfin (suscribir o adquirir un servicio particular) usted debe leer este
+                documento.
+                Por favor háganos saber si hay algún apartado que no esté claro.
+            </p>
+            <h3>Qué podemos y que no podemos hacer</h3>
+            <p>Desde Somosfin podemos ofrecerle acompañamiento financiero, pero no asesoramiento financiero. En Somosfin
+                lo
+                acompañamos a alcanzar tus metas y el bienestar financiero, con un coach siempre disponible que lo
+                guiará en
+                tus
+                decisiones sobre ahorro, inversión y planificación. Como proveedores de acompañamiento financiero, somos
+                responsables de la calidad de la información que proporcionamos, pero no de las decisiones tomadas.
+                Nuestro
+                servicio le sugerirá lo que podría hacer, pero no es una recomendación de lo que debería hacer. Tampoco
+                brindamos asesoramiento legal, contable o fiscal.
+            </p>
+            <h3> Lo que podemos hacer: </h3>
+            <div>
+
+                <ul>
+                    <li>Acompañarlo (es decir, proporcionarle información general).</li>
+                    <li>Recopilar información general para ofrecerle el acompañamiento.</li>
+                    <li>Guiarlo sobre algún tema puntual que no forme parte de un acuerdo continuo y preexistente.</li>
+                    <li>Recomendarle que no tome más deuda de lo que pueda permitirse.</li>
+                    <li>Recomendarle que estudie las ventajas y desventajas de las distintas opciones de endeudamiento,
+                        manejo
+                        de
+                        finanzas cotidianas y opciones de inversión.</li>
+                    <li>Ofrecer una explicación equilibrada, neutral y objetiva del funcionamiento de los distintos
+                        tipos de
+                        inversiones o alternativas de endeudamiento.</li>
+                </ul>
+
+            </div>
+            <h3>Lo que no podemos hacer:</h3>
+            <div>
+                <ul>
+                    <li>Prestar asesoramiento financiero de ningún tipo.</li>
+                    <li>Asesorar sobre las ventajas de una inversión concreta.</li>
+                    <li>Hacer comentarios o juicios de valor sobre un tipo concreto de inversión.</li>
+                    <li>Calificar las inversiones con estrellas en función de su rentabilidad.</li>
+                    <li>Sugerirle que solicite asesoramiento o asistencia a otra empresa cuando existan acuerdos previos
+                        entre
+                        Somosfin y dicha empresa.</li>
+                    <li>Negociar en su nombre.</li>
+                    <li>Actuar como intermediario para usted al momento de realizar una inversión.</li>
+                    <li>Recomendarle que suscriba un plan de reestructuración de deudas.</li>
+                    <li>Prestar asesoramiento legal, contable o fiscal.</li>
+                    <li>Aconsejarle en qué fondos invertir, que productos hipotecarios o de seguro adquirir.</li>
+                </ul>
+
+            </div>
+            <h3> Utilización de sus datos personales </h3>
+            <p> Al comenzar a trabajar con Somosfin usted acepta que utilicemos sus datos de manera que sea posible para
+                nosotros brindarle nuestros servicios. Algunos aspectos importantes: </p>
+            <ul>
+                <li> No compartiremos ninguna información personal fuera de la compañía.</li>
+                <li>Todos los datos se guardarán de forma segura en nuestros sistemas.</li>
+                <li>Su información será utilizada estrictamente para proveerle un mejor servicio.</li>
+                <li>Si ya no desea que conservemos su información, eliminaremos su cuenta y todos los datos asociados.
+                </li>
+            </ul>
+            <p> Es importante que usted sepa que sólo podremos ofrecerle un acompañamiento adecuado si nos facilita
+                información
+                precisa y completa sobre sus circunstancias y objetivos. Si decide limitar la información que nos
+                proporciona,
+                esto podría afectar a la idoneidad del acompañamiento que le proporcionamos. Si su información sufre
+                alguna
+                modificación por favor infórmenos por cualquiera de los medios de comunicación disponibles.
+            </p>
+
+            <h3> ¿Quiénes van a acompañarte? </h3>
+            <p> Somos un equipo de profesionales, pero sobre todo, gente que busca combatir la desigualdad en la
+                educación
+                financiera y empoderar a las personas para desarrollar su potencial e impulsar su calidad de vida. Con
+                un
+                acompañamiento humano, imparcial y honesto, buscamos empoderar a las personas para desarrollar su
+                potencial
+                e impulsar su calidad de vida.
+
+                El acompañamiento financiero no es una actividad regulada por la Autoridad de Conducta Financiera (FCA),
+                y
+                los coaches, como individuos, tampoco están regulados por la Autoridad de Conducta Financiera.
+            </p>
+            <h3> Nuestros servicios son exclusivos para su uso personal </h3>
+            <p> Usted se compromete a no ceder, transferir o sublicenciar sus derechos como usuario registrado de
+                nuestros
+                servicios. Usted entiende que sólo usted puede utilizar el material que le proporcionamos y comparecer
+                en
+                las reuniones, y que su suscripción a nuestros servicios sólo es válida para su uso personal, no
+                comercial,
+                y no
+                puede ser compartida con otros.
+            </p>
+            <h3>Es responsabilidad de Somosfin</h3>
+            <p>Somosfin no constituye, en sí mismo, asesoramiento financiero regulado. Ni Somosfin ni su equipo de
+                profesionales
+                podrán ser considerados responsables de las consecuencias de las medidas que usted tome o deje de tomar.
+
+                En ningún caso Somosfin o nuestros directores, empleados o agentes serán responsables ante usted o
+                cualquier
+                tercero por cualquier daño directo, indirecto, consecuente, ejemplar, incidental, especial o punitivo,
+                incluyendo pérdida de beneficios, pérdida de ingresos, pérdida de datos u otros daños derivados de su
+                uso de
+                Somosfin, incluso si hemos sido advertidos de la posibilidad de tales daños.
+
+                En la medida en que la ley lo permita, quedan excluidas todas las representaciones, garantías y
+                compromisos
+                (expresos o implícitos) con respecto a los servicios que presta Somosfin, su contenido y el uso que
+                usted
+                haga
+                de los mismos. En particular, pero sin limitación, no garantizamos que cualquier vídeo, software,
+                información o
+                material que se le haya proporcionado por parte de Somosfin esté libre de errores, fallos, virus o
+                defectos
+                informáticos o de alteración o daño de datos, sea compatible con su equipo o adecuado para cualquier
+                fin.
+
+                En ningún caso Somosfin, nuestros directores, empleados o agentes serán responsables de pérdidas de
+                beneficios,
+                oportunidades de negocio, fondo de comercio, ahorros previstos o datos, ni de pérdidas o daños
+                especiales,
+                indirectos, incidentales o consecuentes de cualquier tipo que resulten del uso de nuestro servicios.
+
+                Somosfin podrá proporcionar enlaces a sitios web externos, tanto en su sitio web como parte de las
+                recomendaciones de lectura de los coaches. Si utiliza estos enlaces, Somosfin no es responsable de estos
+                sitios web ni de su contenido ni del efecto que estos contenidos tengan en la toma de sus decisiones.
+            </p>
+            <h3>La calidad de su información es relevante para Somosfin</h3>
+            <p>Al utilizar nuestros servicios, usted declara y garantiza que: </p>
+            <ul>
+                <li> Toda la información de registro que envíe será verdadera, exacta, actual y completa. </li>
+                <li> Mantendrá la exactitud de dicha información y actualizará puntualmente dicha información de
+                    registro según
+                    sea necesario. </li>
+                <li>Tiene capacidad legal y acepta cumplir estos términos y condiciones de uso.</li>
+                <li> No es menor de edad en la jurisdicción en la que reside.</li>
+                <li> No utilizará el material que le proporcionamos para ningún propósito ilegal o no autorizado.</li>
+                <li> Su uso de nuestros servicios y materiales no violará ninguna ley o regulación aplicable.</li>
+            </ul>
+            <p> Si proporciona cualquier información falsa, inexacta, no actualizada o incompleta, tenemos derecho a
+                suspender o
+                cancelar su cuenta y rechazar cualquier uso actual o futuro de usted con cualquier herramienta de
+                propiedad
+                de Somosfin.
+            </p>
+            <h3>Que necesitamos de tu parte para nuestros servicios:</h3>
+            <ul>
+                <li> Tener acceso a un ordenador o dispositivo móvil.</li>
+                <li> Conexión a Internet, WiFi o una conexión de red móvil.</li>
+                <li> Disponibilidad para conectarse a las reuniones con su coach.</li>
+            </ul>
+
+            <h3>¿Qué pasa si se modifican nuestros servicios?</h3>
+            <p>
+                Somosfin es una empresa en permanente evolución que busca mejorar su servicio en forma contínua.  Por
+                ello
+                queda a nuestra entera discreción y sin previo aviso o responsabilidad la posibilidad de poder
+                interrumpir,
+                modificar o alterar cualquier aspecto de los servicios que ofrecemos, incluyendo, pero no limitado a,
+                (i)
+                modificar el tiempo en que el servicio está disponible, (ii) modificar la cantidad de uso permitido, y
+                (iii)
+                modificar o cancelar el derecho de cualquier usuario a utilizar cualquiera de nuestros Servicios.
+
+                Por el mismo motivo, puede haber ocasiones en las que el servicio, o cualquier contenido relacionado con
+                el
+                mismo, no esté disponible. Usted reconoce que su único derecho con respecto a cualquier insatisfacción
+                con
+                cualquier modificación o interrupción del servicio realizada por nosotros de conformidad con esta
+                disposición o estos términos y condiciones, es cancelar o terminar su suscripción o cuenta de usuario
+                registrado, según corresponda.
+            </p>
+
+            <h3>Política de cancelación</h3>
+            <p>
+                Durante los primeros 30 días, en caso de que el servicio no haya cumplido tus expectativas, vas a poder
+                solicitar el reembolso total de tu membresía. Asimismo, usted podrá cancelar la suscripción en cualquier
+                momento y sin ningún tipo de restricción ni cargo adicional.
+            </p>
+
+            <h3>Registro con el fin de mejorar la calidad del servicio</h3>
+            <p>
+                Con el fin de mantener nuestro servicio y el nivel de calidad del mismo, llevaremos a cabo un
+                seguimiento
+                continuo que pueden implicar la revisión por parte de un miembro del equipo de producto de Somosfin:</p>
+            <ul>
+                <li> Grabaciones de las conversaciones que haya mantenido con nuestro equipo.</li>
+                <li>Correos electrónicos y otras comunicaciones escritas entre usted y nuestro equipo.</li>
+            </ul>
+            <p> Estas grabaciones se gestionan y almacenan de forma segura, según nuestras políticas de privacidad de
+                datos,
+                para que cualquier información que comparta con nuestro equipo permanezca privada.
+
+                Buscamos proveer un servicio de calidad y es muy importante para nosotros que usted crea lo mismo. En
+                caso
+                que usted considere que nuestros servicios no están a la altura de sus expectativas, durante los
+                primeros 15
+                días desde su suscripción a nuestros servicios usted puede solicitarnos la cancelación inmediata de su
+                membresía y el reembolso del dinero ya abonado.
+            </p>
+
+            <h3>Propiedad Intelectual de Somosfin</h3>
+            <p>Somosfin es propiedad de la empresa Somosfin Ltd. Todos los derechos de propiedad intelectual, incluyendo
+                los
+                derechos de autor, marcas comerciales y patentes, están protegidos por las leyes aplicables. No se
+                permite
+                la reproducción, distribución o modificación de cualquier contenido o material que se le haya brindado
+                mediante el servicio de coaching o por medio de nuestra plataforma sin nuestro consentimiento previo por
+                escrito.
+            </p>
+
+            <h3>Cambios en los Términos y condiciones</h3>
+            <p>Somosfin está atravesando constantemente cambios y mejoras, por lo tanto, a veces tendremos que hacer
+                cambios
+                en estos términos y condiciones, lo que podría ocurrir cuando cambien las leyes o normativas, o cuando
+                introducimos nuevas funciones, productos o contenidos en el servicio. Los nuevos términos y condiciones
+                entrarán en vigor la próxima vez que utilice el o los servicios.
+
+                Cuando se actualicen nuestros términos y condiciones, la nueva versión se publicará en el Sitio Web de
+                Somosfin (www.somosfin.com). Si usted no está de acuerdo con los nuevos términos y condiciones, podrá
+                dejar
+                de utilizar el servicio. Si continúa utilizando el Servicio, significa que acepta los nuevos términos y
+                condiciones.
+            </p>
+            <h3>Comunicaciones de Somosfin</h3>
+            <p>Al crear una cuenta con Somosfin, usted acepta suscribirse a boletines informativos, materiales de
+                marketing
+                o promocionales y otra información que podamos enviarle. No obstante, puede optar por no recibir ninguna
+                o
+                ninguna de estas comunicaciones de nuestra parte siguiendo el enlace de cancelación de suscripción o las
+                instrucciones proporcionadas en cualquier correo electrónico que le enviemos.
+            </p>
+            <h3>Cómo contactarnos</h3>
+            <p>
+                Somosfin provee atención al cliente de forma gratuita, otorgando a usted la posibilidad de contactarse
+                con
+                la empresa a través de correo electrónico y/o a través de sus líneas de atención gratuita que se
+                mencionan a
+                continuación:
+            </p>
+            <ul>
+                <li>Mail a la casilla info@somosfin.com </li>
+                <li>Whatsapp a la línea +44 7749834889</li>
+            </ul>
+            <h3>Cómo presentar una queja</h3>
+            <p>
+                Si usted tiene algún reclamo, póngase en contacto con nosotros en info@somosfin.com y haremos todo lo
+                posible
+                por resolver su problema.
+            </p>
+
+
+        </div>
+
+    </main>
+    <footer>
+        <div class="form-footer">
+            <p> ¿ALGUNA PREGUNTA?</p>
+            <h3> ¡Hablemos! </h3>
+            <p> Prueba una reunión con nosotros para resolver cualquier duda</p>
+            <a href="https://calendly.com/somosfin/30min" target="_blank"> Prueba una reunión gratis </a>
+        </div>
+        <div class="footerSF">
+            <img src="../assets/somosfin_logo.png" alt="">
+            <div class="footerLegal">
+                <div class="footer1">
+                    <h5><strong> Sobre Nosotros </strong></h5>
+                    <p> <a href="mailto:info@somosfin.com" class="footer-links"> Contacto</a> </p>
+                    <p> <a href="https://forms.gle/wsSyTsPmJMvG2Gpn6" class="footer-links"> Sumate a
+                            nuestro equipo </a> </p>
+                    <p> <a href="../FAQS/" class="footer-links"> Preguntas frecuentes </a>
+                    </p>
+                </div>
+                <div class="footer2">
+                    <h5><strong> Legal </strong></h5>
+                    <p> <a href="../politicas" class="footer-links"> Política de privacidad</a>
+                    </p>
+                    <p> <a href="#" class="footer-links"> Términos y
+                            condiciones</a>
+                    </p>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="subinfo">
+            <div class="footer-bottom">
+                <span> ©2023 somosfin</span>
+            </div>
+
+            <div class="footerRedes">
+                <a href="https://www.linkedin.com/company/somosfin/"> LinkedIn </a>
+                <a href="https://www.instagram.com/somos.fin/"> Instagram </a>
+                <a href="https://twitter.com/somosfin"> Twitter </a>
+            </div>
+
+        </div>
+
+        <!-- <span class="ICO"> Somosfin es una compañía registrada en Inglaterra y Gales como Somosfin Ltd (Nro 14249475),
+            36 Streatley Road, Londres NW6 7LS. Somosfin Ltd se encuentra registrada en la Information
+            Commissioner's Office
+            (ICO, Oficina de Protección de Datos del Reino Unido) bajo el número de licencia ZB603110. Somosfin Ltd es
+            un servicio de acompañamiento financiero, y no se encuentra regulado por la Financial Conduct Authority
+            (FCA).
+        </span> -->
+    </footer>
+
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer
+        src="//js-eu1.hs-scripts.com/139814969.js"></script>
+    <!-- End of HubSpot Embed Code -->
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

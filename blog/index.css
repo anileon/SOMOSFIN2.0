@@ -1,0 +1,454 @@
+@import url(../intro.css);
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+@font-face {
+    font-family: "ESRebondGrotesque Bold";
+    src: url(../fonts/ESRebondGrotesque-Bold.woff2)format('woff2'),
+}
+
+@font-face {
+    font-family: "ESRebondGrotesque Medium";
+    src: url(../fonts/ESRebondGrotesque-Medium.woff2)format('woff2');
+}
+
+@font-face {
+    font-family: "ESRebondGrotesque Regular";
+    src: url(../fonts/ESRebondGrotesque-Regular.woff2)format('woff2');
+}
+
+@font-face {
+    font-family: "ESRebondGrotesque Light";
+    src: url(../fonts/ESRebondGrotesque-Light.woff2)format('woff2'), ;
+}
+
+main,
+header {
+    background: #F0E6D8;
+}
+
+main {
+    display: flex;
+    padding: 0px 120px 70px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+    align-self: stretch;
+}
+
+a {
+    text-decoration: none;
+}
+
+.blog {
+    padding: 70px 0px;
+    background-color: #f4f4ec;
+}
+
+.blog-featured {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 203px;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+}
+
+.card-title span {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    border: 1px solid #60605F;
+}
+
+.card-title h3 {
+    color: #1C1C1A;
+    font-family: "ESRebondGrotesque Medium";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 85%;
+    /* 40.8px */
+}
+
+.card-title p {
+    color: #60605F;
+    font-family: "ESRebondGrotesque Light";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 85%;
+    /* 27.2px */
+}
+
+.card-image img {
+    width: 538px;
+    height: 358px;
+    border-radius: 20px;
+}
+
+
+.blog-card1 {
+
+    transform: translateX(140px);
+    width: 430px;
+    max-height: 520px;
+    padding: 20px 20px 60px 20px;
+    background-color: #f4f4ec;
+    gap: 46px;
+    border-radius: 20px;
+    border: 1px solid #60605F;
+}
+
+
+.blog-card2 {
+    width: 430px;
+    max-width: 430px;
+    max-width: 430px;
+    max-height: 520px;
+    padding: 20px 20px 60px 20px;
+    background-color: #f4f4ec;
+    transform: translateX(-100px);
+    gap: 46px;
+    border-radius: 20px;
+    border: 1px solid #60605F;
+
+}
+
+
+.blog-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 40px 0px;
+
+}
+
+.blog-intro h2 {
+    color: var(--Base-Black, #171C21);
+    text-align: center;
+    font-family: "ESRebondGrotesque Bold";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 59.5px */
+    padding-bottom: 20px;
+}
+
+.blog-intro span,
+.blog span {
+    color: #60605F;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "ESRebondGrotesque Light";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 105.5%;
+    /* 16.88px */
+    letter-spacing: 1.6px;
+
+}
+
+.blog span {
+    display: flex;
+    padding-bottom: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.blog-intro p {
+    color: #60605F;
+
+    text-align: center;
+    font-family: "Inter";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    /* 36.4px */
+    letter-spacing: -0.28px;
+}
+
+
+
+.blog-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    width: 100%;
+    justify-items: center;
+
+}
+
+
+.blog-card1 img,
+.blog-card2 img {
+    border-radius: 8px 8px 0px 0px;
+    max-height: 200px;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.texto-blog {
+    padding: 6rem 1rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.texto-blog a {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'ESRebondGrotesque Medium';
+    color: #1C1C1A;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 85%;
+    /* 40.8px */
+}
+
+
+/* .categoria-blog span {
+    background-color: #CCA570;
+    color: #fff;
+    padding: .2rem .5rem;
+    border-radius: 4px;
+} */
+
+.perfil-card {
+    display: flex;
+}
+
+.img-perfil-card {
+    display: flex;
+}
+
+.img-perfil-card img {
+    width: 50px;
+    height: 50px;
+    margin: 1rem;
+    border-radius: 50%;
+}
+
+.text-perfil-card {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0rem;
+    padding: 10px 0px;
+}
+
+.text-perfil-card span {
+    color: #60605F;
+    font-family: 'ESRebondGrotesque Light';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 85%;
+    /* 27.2px */
+}
+
+h2 {
+    font-family: 'ESRebondGrotesque Medium';
+    padding: 15px;
+}
+
+
+p {
+    font-family: 'Inter';
+}
+
+@media only screen and (min-width: 1768px) and (max-width: 2953px) {
+
+    .blog-card1 {
+        transform: translateX(240px)
+    }
+
+    .blog-card2 {
+        transform: translateX(-250px);
+    }
+
+
+}
+
+/* Media Query for Tablets */
+@media only screen and (min-width: 870px) and (max-width: 1340px) {
+
+
+    .blog-wrap {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blog-card1 {
+        margin: 20px;
+        transform: translateX(40px);
+        margin: 0;
+    }
+
+    .blog-card2 {
+        transform: translateX(-10px);
+    }
+
+
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 870px) {
+
+    main {
+        display: flex;
+        padding: 0px 40px 120px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 37px;
+        align-self: stretch;
+    }
+
+    .blog-intro h2 {
+        color: #171C21;
+        text-align: left;
+        font-family: "ESRebondGrotesque Bold";
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 60px;
+        padding: 20px 0px 0px;
+    }
+
+    .blog-intro p {
+        color: #60605F;
+        text-align: left;
+        font-family: "Inter";
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        letter-spacing: -0.28px;
+    }
+
+    .blog-featured {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 53px;
+        flex-direction: column;
+    }
+
+
+    .card-image img {
+        width: 350px;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .blog-wrap {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        /* Adjusting grid gap for smaller screens */
+    }
+
+    .blog-card1,
+    .blog-card2 {
+        width: 400px;
+        max-width: 350px;
+        transform: none;
+        margin: 0;
+
+    }
+
+    .blog-card1 img,
+    .blog-card2 img {
+        max-width: 300px;
+
+    }
+
+    .texto-blog {
+        padding: 50px 0px 0px;
+       
+    }
+
+    .texto-blog a {
+        font-size: 22px;
+     
+    }
+
+    .categoria-blog {
+        margin: 0.5rem 0.5rem 0px;
+        
+    }
+
+    .categoria-blog span {
+        font-size: 16px;
+        padding: .1rem .3rem;    
+    }
+
+    .perfil-card {
+        flex-direction: row;
+        padding: 0px 0px 20px 20px;
+    }
+
+    .img-perfil-card img {
+        width: 40px;
+        height: 40px;
+        margin: 0.5rem;
+    }
+
+    .text-perfil-card {
+        margin: 0.5rem 0rem;
+        padding: 5px 0px;
+    }
+
+    .text-perfil-card span {
+        color: #60605F;
+        font-family: 'ESRebondGrotesque Light';
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 85%;
+        padding: 10px 0px 0px;
+    }
+
+    /* RESPONSIVE TABLET */
+
+    @media (min-width: 808px) and (max-width: 1353px) {
+
+
+        .blog-intro h2 {
+            color: #171C21;
+            text-align: center;
+            font-family: "ESRebondGrotesque Bold";
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 60px;
+            padding: 0px;
+        }
+
+        .blog-intro p {
+            color: #60605F;
+            text-align: center;
+            font-family: "Inter";
+            font-size: 17px;
+        }
+    }
+
+
+
+
+}

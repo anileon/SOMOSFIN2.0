@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url(../index.css);
+
+@font-face {
+    font-family: "ESRebondGrotesque Bold";
+    src: url(../fonts/ESRebondGrotesque-Bold.woff2)format('woff2'),
+
+}
+
+@font-face {
+    font-family: "ESRebondGrotesque Medium";
+    src: url(../fonts/ESRebondGrotesque-Medium.woff2)format('woff2');
+}
+
+@font-face {
+    font-family: "ESRebondGrotesque Regular";
+    src: url(../fonts/ESRebondGrotesque-Regular.woff2)format('woff2');
+}
+
+@font-face {
+    font-family: "ESRebondGrotesque Light";
+    src: url(../fonts/ESRebondGrotesque-Light.woff2)format('woff2'), ;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+
+}
+
+body,
+header {
+    background-color: #F0E6D8;
+    margin: 0;
+}
+
+.newsletter, .intro-form-comienza {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45px 600px 40px;
+
+}
+
+.newsletter h3 ,.intro-form-comienza h3{
+    font-family: "ESRebondGrotesque Bold";
+    padding: 40px 0px 30px;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 85%;
+    width: 698px;
+
+}
+
+.newsletter p , .intro-form-comienza p{
+    font-family: "Inter";
+    font-size: 20px;
+    line-height: 150%;
+    width: 698px;
+    text-align: justify;
+}
+
+.newsletter ul {
+    padding-right: 380px;
+}
+
+.newsletter li {
+    font-family: "Inter";
+    font-size: 20px;
+    line-height: 150%;
+    text-align: left;
+}
+
+.intro-form-comienza h5{
+    font-family: "ESRebondGrotesque Medium";
+    width: 698px;
+    padding-bottom: 15px;
+    color:#ada5c4;
+    font-size: 22px;
+
+}
+
+.form {
+    /* height: 850px; */
+    padding: 45px 400px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.vector {
+    position: absolute;
+    left: 517px;
+    bottom: -282px;
+}
+
+.vector2 {
+    position: absolute;
+    left: 866px;
+    bottom: -182px;
+}
+
+.vector3 {
+    position: absolute;
+    right: 799px;
+    bottom: -288px;
+}
+
+.vector4 {
+    position: absolute;
+    right: 508px;
+    bottom: -215px;
+}
+
+
+/* version mobile */
+@media screen and (max-width: 806px) {
+    .form {
+        height: auto;
+        padding: 40px 0px 40px;
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+
+    }
+
+    .newsletter, .intro-form-comienza {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 0px 40px;
+    }
+
+    .newsletter h3, .intro-form-comienza h3 {
+        font-family: "ESRebondGrotesque Bold";
+        padding: 20px 0px;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 85%;
+        width: 308px;
+    }
+
+    .newsletter p , .intro-form-comienza p{
+        font-family: "Inter";
+        font-size: 20px;
+        line-height: 150%;
+        width: 308px;
+        text-align: left;
+    }
+
+    .intro-form-comienza h5{
+        width: 308px;
+        text-align: left;
+    
+    }
+
+   .newsletter ul {
+        padding: 0px;
+    }
+
+    iframe {
+        width: 370px;
+        height: 921px;
+        padding: 0px 20px;
+    }
+}
+
+/* version tablet */
+@media only screen and (min-width: 806px) and (max-width: 1353px) {
+    .form {
+        width: 100%;
+        height: auto;
+        padding: 90px 150px 30px;
+        display: flex;
+    }
+
+    .newsletter, .intro-form-comienza {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 45px 150px 40px;
+
+    }
+
+    ul {
+        padding: 0px 370px 0px 0px;
+    }
+}
+
+@media only screen and (min-width: 1354px) and (max-width: 1653px) {
+    .newsletter, .intro-form-comienza {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+        padding: 45px 300px 40px;
+
+    }
+
+    .newsletter ul {
+        padding-right: 200px;
+    }
+
+
+    .form {
+        /* height: 850px; */
+        padding: 45px 100px 40px;
+    }
+}
