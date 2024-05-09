@@ -367,7 +367,7 @@ footer {
     }
 
     .menu.active {
-        background-color: aliceblue;
+        background-color: white;
         display: flex;
         align-items: center;
         z-index: 2;
