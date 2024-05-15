@@ -578,8 +578,10 @@ img {
 
 .reservas img {
     width: 388px;
-    height: 400px;
+    height: auto;
     object-fit: contain;
+    border-radius: 30px;
+    margin: 30px 0px 30px;
 }
 
 .boton-reserva {
@@ -1651,9 +1653,10 @@ img {
 
     .reservas img {
         width: 308px;
-        height: 350px;
+        height: auto;
         object-fit: contain;
         border-radius: 30px;
+        margin: 30px 0px 30px;
     }
 
     .acordeon {
