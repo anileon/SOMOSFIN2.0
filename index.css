@@ -1568,14 +1568,14 @@ img {
 
     /* HISTORIA DE USUARIO */
     .historiaSF {
-        display: none;
-        /* display: flex;
+        /* display: none; */
+        display: flex;
         align-items: center;
         padding: 0px 100px 60px;
         gap: 20px;
         align-self: stretch;
         justify-content: center;
-        flex-direction: column; */
+        flex-direction: column; 
     }
 
     .historiasUsuario, .reservas {
@@ -1588,7 +1588,7 @@ img {
     .historia-usuario3 {
         display: flex;
         height: 379px;
-        width: 320px;
+        width:auto;
         padding: 30px 25px;
         flex-direction: column;
         justify-content: space-between;
@@ -1602,7 +1602,7 @@ img {
     .historia-usuario3 p {
         color: #171C21;
         font-family: "ESRebondGrotesque Light";
-        font-size: 22px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 400;
         line-height: 120%;
@@ -1650,7 +1650,7 @@ img {
     }
 
     .reservas img {
-        width: 348px;
+        width: 308px;
         height: 350px;
         object-fit: contain;
         border-radius: 30px;
