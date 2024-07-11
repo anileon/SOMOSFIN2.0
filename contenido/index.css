@@ -49,8 +49,6 @@ h2 {
     text-align: center;
 }
 
-
-
 .titulo {
     text-align: center;
 }
@@ -61,7 +59,7 @@ main img {
     height: 100%;
     margin: auto;
     display: flex;
-    width: auto;
+    width: 750px;
 }
 
 .lanzamiento-foto {
@@ -136,7 +134,7 @@ main h2 {
     padding: 20px 0px;
 }
 
-.finanzas li {
+.finanzas li , .planificacion li {
     list-style-type: decimal;
     font-weight: 800;
     font-family: "ESRebondGrotesque Bold";
@@ -145,6 +143,7 @@ main h2 {
     padding: 15px 0px;
 
 }
+
 .footerfinanzas{
     line-height: 15px;
 }
@@ -260,7 +259,7 @@ main h2 {
 
         margin: auto;
         display: flex;
-        width: auto;
+        width: 600px;
         object-fit: contain;
     }
 
@@ -307,7 +306,7 @@ main h2 {
     }
 
     main p {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 47px;
     }
 
@@ -342,6 +341,16 @@ main h2 {
         padding: 10px 0px;
     }
 
+    .planificacion li {
+        list-style-type: decimal;
+        font-weight: 800;
+        font-family: "ESRebondGrotesque Bold";
+        font-size: 20px;
+        line-height: 47px;
+        padding: 0px;
+    
+    }
+
     .deudas-intro {
         transform: none;
     }
@@ -361,5 +370,21 @@ main h2 {
 
     }
 
+    .planificacion ul {
+        padding: 0px;
+    }
+
+    .planificacion ul p {
+        font-size: 18px;
+    }
+
+    .card-secondary-title {
+        display: flex;
+        flex-direction: column;
+        /* align-items: flex-start; */
+        gap: 35px;
+        justify-content: center;
+        width: auto;
+    }
 
 }
