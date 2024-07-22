@@ -53,7 +53,15 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 203px;
+    gap: 303px;
+}
+
+.articuloDestacado{
+    margin: 70px 0px 20px 40px;
+    width: 890px;
+    color: #60605F;
+    font-family: 'ESRebondGrotesque Light';
+    font-size: 25px;
 }
 
 .card {
@@ -118,7 +126,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     gap: 100px;
 
 }
@@ -239,7 +247,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 271px;
     height: 54px;
     margin: 0px 160px;
     border-radius: 40px;
@@ -323,6 +330,10 @@ p {
         align-self: stretch;
     }
 
+    .blog-intro{
+        padding: 0px 0px 0px;
+    }
+    
     .blog-intro h2 {
         color: #171C21;
         text-align: left;
@@ -351,6 +362,12 @@ p {
         align-items: center;
         gap: 53px;
         flex-direction: column;
+        margin-left: 20px;
+
+    }
+
+    .articuloDestacado{
+        margin: 0px 0px 30px 40px;
     }
 
     .blog-newsletter {
@@ -401,7 +418,7 @@ p {
     }
 
     .card-image img {
-        width: 320px;
+        width: 300px;
         height: 201px;
         border-radius: 20px;
     }
@@ -410,6 +427,7 @@ p {
         display: flex;
         flex-direction: column;
         gap: 35px;
+        
     }
 
     .card-info p {

@@ -44,8 +44,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 45px 600px 40px;
-
+    
 }
 
 .newsletter h3 ,.intro-form-comienza h3{
@@ -84,12 +83,10 @@ header {
     padding-bottom: 15px;
     color:#ada5c4;
     font-size: 22px;
-
 }
 
 .form {
-    /* height: 850px; */
-    padding: 45px 400px 40px;
+    /* padding: 45px 400px 40px; */
     display: flex;
     justify-content: center;
 }
@@ -177,7 +174,7 @@ header {
     .form {
         width: 100%;
         height: auto;
-        padding: 90px 150px 30px;
+        /* padding: 90px 150px 30px; */
         display: flex;
     }
 
@@ -185,7 +182,7 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 45px 150px 40px;
+       
 
     }
 
