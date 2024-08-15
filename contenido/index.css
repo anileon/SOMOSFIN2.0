@@ -143,6 +143,11 @@ main h2 {
     padding: 15px 0px;
 
 }
+.manual-finanzas li{
+    list-style-type: disc;
+    font-size: 20px;
+    line-height: 47px;
+}
 
 .footerfinanzas{
     line-height: 15px;

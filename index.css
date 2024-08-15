@@ -690,7 +690,7 @@ img {
 }
 
 .preguntasfrecuentes h3 {
-    font-family: "ESRebondGrotesque Light";
+    font-family: "Inter";
     line-height: 120%;
     font-size: 20px;
     font-weight: 400;
@@ -734,6 +734,13 @@ img {
 /* Estilo de los contenidos (inicialmente ocultos) */
 .contenido {
     display: none;
+}
+
+.contenido p {
+    font-family: "Inter";
+    font-size: 18px;
+    padding: 0px 10px;
+
 }
 
 /* Estilo para mostrar el contenido al hacer clic en el título */
