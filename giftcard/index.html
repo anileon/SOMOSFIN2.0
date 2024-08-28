@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="somosfin">
     <meta property="og:description" content="Toma el control de tus finanzas y alcanza tus metas.
-    Aprende a ordenar tus finanzas, ahorrar e invertir con acompañamiento personalizado.
-    Agenda una reunión y comencemos a trabajar.">
+     Aprende a ordenar tus finanzas, ahorrar e invertir con acompañamiento personalizado.
+     Agenda una reunión y comencemos a trabajar.">
     <meta property="og:image" content="https://www.somosfin.com/assets/logofavicon.png">
     <meta property="og:url" content="https://www.somosfin.com/">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../assets/logofavicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <title> somosfin | planes </title>
+    <title> somosfin </title>
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
@@ -31,15 +31,7 @@
             });
         });
 
-        window.addEventListener("scroll", () => {
-         
-            const headerIntro = document.querySelector("#header");
-            if (window.scrollY > 100) {
-                headerIntro.classList.add("scrolled");
-            } else {
-                headerIntro.classList.remove("scrolled");
-            }
-        });
+
     </script>
 
     <!-- Google tag (gtag.js) -->
@@ -51,6 +43,7 @@
 
         gtag('config', 'G-D3H163FP9P');
     </script>
+
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
@@ -71,10 +64,11 @@
     <!-- End Google Tag Manager (noscript) -->
     <header>
         <div class="headerIntro" id="header">
-            <a href="../">
+            <a href="./">
                 <img class="logoSF" src="../assets/somosfin_logo.png" alt="logoSomosFin">
             </a>
-            <nav>
+
+            <nav class="navbar-principal">
                 <div class="menu-toggle" id="menu-toggle">
                     <div class="bar"></div>
                     <div class="bar"></div>
@@ -96,172 +90,128 @@
 
 
     <main>
-        <div class="planes-intro">
-            <span style="padding-top: 20px;font-size: 18px;"> NUESTROS PLANES </span>
-            <h2> Encuentra el que más <br> se adapte a tí</h2>
-            <p>Con todos los planes te ofrecemos una reunión gratis sin compromiso </p>
+        <div class="experiencia-intro">
+            <h3> Hay <strong style="text-shadow: 2px 2px 2px #FFC03F;">regalos</strong> que nos cambian </h3>
+            <p> GIFT CARD SOMOSFIN </p>
+
         </div>
+        <div class="suscripcion-carousel">
+            <div class="suscripcion1">
+                <img src="../assets/gift-1.png" alt="">
 
-        <div class="planes">
-            <div class="plan-light">
-                <div class="titulos-planes">
-                    <h3> Membresía Light </h3>
-                    <span> USD 35/mes </span>
-                </div>
-                <div class="texto-planes">
-                    <ul>
-                        <li> Controla tus finanzas cotidianas</li>
-                        <li> 1 encuentro por mes con tu coach </li>
-                        <li> WhatsApp y mails ilimitados con somosfin </li>
-                        <li> Herramientas y contenido personalizado </li>
-                    </ul>
-                </div>
-                <div class="botonesPlanes">
-                    <a href="https://meetings-eu1.hubspot.com/meetings/agenda-fitmeet/today" class="botonGratis" target="_blank"> Prueba una
-                        reunión gratis</a>
-                    <a href="https://buy.stripe.com/5kA3d1eHegdXbe0cMR" class="botonSuscripcion" target="_blank"> Quiero
-                        suscribirme </a>
-                </div>
+                <p>Para tu amiga que siempre tiene algo nuevo que comprarse, pero nunca “le alcanza”
+                </p>
+                <a href="http://"> Regala orden </a>
             </div>
-
-            <div class="plan-compact">
-                <div class="titulos-planes">
-                    <h3> Membresía Avanzada</h3>
-                    <span> USD 65/mes </span>
-                </div>
-
-                <div class="texto-planes">
-                    <ul>
-                        <li> Todo lo incluido en la Membresía Light</li>
-                        <li> Alcanza tus objetivos financieros</li>
-                        <li> 2 encuentros por mes con tu coach </li>
-                        <li> Comienza a invertir en tus sueños </li>
-                    </ul>
-                </div>
-                <div class="botonesPlanes">
-                    <a href="https://meetings-eu1.hubspot.com/meetings/agenda-fitmeet/today" class="botonGratis" target="_blank"> Prueba una
-                        reunión gratis</a>
-                    <a href="https://buy.stripe.com/8wMdRF0QobXHgyk6ou" class="botonSuscripcion" target="_blank"> Quiero
-                        suscribirme </a>
-                </div>
-
+            <div class="suscripcion2">
+                <img src="../assets/gift-2.png" alt="">
+                <p>Para tu hermano que no sabe bien de dónde viene su dinero...
+                    ...ni a dónde se va</p>
+                    <a href="http://"> Regala claridad</a>
 
             </div>
-
-            <div class="plan-advance">
-
-                <div class="titulos-planes">
-                    <h3> Membresía Full </h3>
-                    <span> USD 120/mes </span>
-                </div>
-                <div class="texto-planes">
-                    <ul>
-                        <li> Todo lo incluido en la Membresía Avanzada</li>
-                        <li> Planificación personalizada para tu caso </li>
-                        <li> Encuentros ilimitados con tu coach </li>
-                        <!-- <li> WhatsApp y mails ilimitados con somosfin </li> -->
-
-                    </ul>
-                </div>
-                <div class="botonesPlanes">
-                    <a href="https://meetings-eu1.hubspot.com/meetings/agenda-fitmeet/today" class="botonGratis" target="_blank"> Prueba una
-                        reunión gratis</a>
-                    <a href="https://buy.stripe.com/8wMaFt56E7Hr0zmdQX" class="botonSuscripcion" target="_blank"> Quiero
-                        suscribirme </a>
-                </div>
-
-
+            <div class="suscripcion3">
+                <img src="../assets/gift-3.png" alt="">
+                <p>Para tu amigo que le encanta ir de aventuras, pero siempre vuelve endeudado</p>
+                <a href="http://">Regala estructura </a>
             </div>
         </div>
 
     </main>
-    <!-- SECCION EXPERIENCIA-->
-    <section>
-        <div class="experienciaSF">
-            <div class="experiencia-intro">
-                <span> LAS CUATRO C </span>
-                <h3> La experiencia somosfin</h3>
-                <p> Descubre todas tus posibilidades con nuestro servicio </p>
-            </div>
-            <div class="experiencia-cuadro">
-                <div class="experiencias">
-                    <div class="experiencia1">
-                        <!-- <img src="../assets/Polygon-exp.png" alt="" class="vector"> -->
-                        <img src="../assets/exp-1.png" alt="">
-                        <p>Control de tus finanzas</p>
-                    </div>
-                    <div class="experiencia2">
-                        <!-- <img src="../assets/Vector-exp.png" alt="" class="vector2"> -->
-                        <img src="../assets/exp-2.png" alt="">
-                        <p> Claridad en tus objetivos</p>
-                    </div>
-                    <div class="experiencia3">
-                        <!-- <img src="../assets/Ellipse-exp.png" alt="" class="vector3"> -->
-                        <img src="../assets/exp-3.png" alt="">
-                        <p>Comprensión de finanzas</p>
-                    </div>
-                    <div class="experiencia4">
-                        <!-- <img src="../assets/Vector2-exp.png" alt="" class="vector4"> -->
-                        <img src="../assets/exp-4.png" alt="">
-                        <p>Confianza en tus decisiones</p>
-                    </div>
 
-                </div>
-            </div>
-            <a href="../form/" class="boton-experiencia" target="_blank"> Comienza aquí </a>
+    <section>
+        <div class="gift-texto">
+            <h3>
+                Haz un regalo que marque un antes y un después
+            </h3>
+            <p>
+                Dale el “empujón” que esa persona necesita para alcanzar sus metas, desde aprender a ahorrar para vivir
+                más en calma, hasta planear un año sabático o empezar un emprendimiento.
+            </p>
         </div>
     </section>
 
-    <!-- SECCION USER STORIES -->
-    <div class="historiasUsuario">
-        <div class="suscripcion-intro">
-            <span> QUE DICEN NUESTROS SUSCRIPTORES </span>
-            <h3> Dicen que una reseña vale más que mil anuncios </h3>
-            <p> Nos tomamos muy en serio la opinión de nuestros usuarios </p>
-        </div>
-        <div class="historiaSF">
-            <div class="historia-usuario1">
-                <p>somosfin te da una paz mental tremenda. Me equilibró. Vivo más tranquilo, me sacó un estrés de la
-                    cabeza
-                    y eso lo llevo a casa. <strong>Ahora puedo dedicarme a lo que me gusta. </strong> </p>
-                <div class="img-historia">
-                    <img src="../assets/US-1.jpg" alt="">
-                    <div class="perfil-historia">
-                        <p> <strong> Gustavo Diaz</strong></p>
-                        <span> Emprendedor. Vive en Argentina</span>
-                    </div>
-                </div>
-            </div>
-            <div class="historia-usuario2">
-                <p> Hoy por hoy, gracias a somosfin, puedo disfrutar de irme de vacaciones o comprar ropa y vivirlo
-                    <strong>sin
-                        culpa y sin la necesidad de compensar con otra cosa.</strong>
+    <div class="gift-rectangulos">
+        <div class="rectangulo1">
+            <img src="../assets/gift-rectangulo1.png" alt="">
+            <div class="rectangulo1-texto">
+                <p>
+                    Con la gift card Somosfin, puedes regalar 'el impulso' que alguien necesita para ordenar sus
+                    finanzas.
                 </p>
-                <div class="img-historia">
-                    <img src="../assets/US-3.jpg" alt="">
-                    <div class="perfil-historia">
-                        <p> <strong> Laura Reynoso </strong></p>
-                        <span> Psicóloga. Vive en España</span>
-                    </div>
-                </div>
             </div>
-            <div class="historia-usuario3">
-                <p> Desde que saldé todas las deudas que tenía, nunca más volví a tener una. <strong>
-                        En somosfin me ayudaron a
-                        ser
-                        consciente de mis finanzas personales para poder gastar y ahorrar con consciencia.
-                    </strong></p>
-                <div class="img-historia">
-                    <img src="../assets/US-2.jpg" alt="">
-                    <div class="perfil-historia">
-                        <p> <strong> Soledad Corrieri</strong></p>
-                        <span> Emprendedora. Vive en Italia </span>
-                    </div>
-
-                </div>
+        </div>
+        <div class="rectangulo2">
+            <img src="../assets/gift-rectangulo2.png" alt="">
+            <div class="rectangulo2-texto">
+                <p>Porque el bienestar financiero es la base para alcanzar cualquier meta. </p>
             </div>
         </div>
     </div>
+
+    <div class="gift" style="display: flex; justify-content: center;">
+      <div class="gift-box">
+        <h2> GIFT CARD <img src="../assets/somosfin_logo.png" alt="" width="200px" height="40px"></h2>
+        <div class="gift-box-items">
+            <div class="gift-box-item">
+
+                <li> Sesiones personalizadas y en línea con un <strong> coach financiero</strong></li>
+               <li> Acceso a la <strong>app somosfin </strong> diseñada para entender gastos y alcanzar metas</li>
+                
+            </div>
+
+            <div  class="gift-box-item2">
+                <li> Comunicación directa via <strong>Whatsapp</strong> para resolver cualquier duda financiera</li>
+                <li> <strong> Contenido</strong> sobre finanzas pensada para objetivos y necesidades específicos.</li>
+            </div>
+
+
+        </div>
+
+    </div>  
+    </div>
+    
+
+
+
+<!-- 
+    <div class="slide">
+        <div class="slide-inner">
+            <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden=""
+                checked="checked">
+            <div class="slide-item">
+                <img src="../assets/suscripcion-carrousel1.png">
+            </div>
+            <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="../assets/suscripcion-carrousel2.png">
+            </div>
+            <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+            <div class="slide-item">
+                <img src="../assets/suscripcion-carrousel3.png">
+            </div>
+            <label for="slide-3" class="slide-control prev control-1">‹</label>
+            <label for="slide-2" class="slide-control next control-1">›</label>
+            <label for="slide-1" class="slide-control prev control-2">‹</label>
+            <label for="slide-3" class="slide-control next control-2">›</label>
+            <label for="slide-2" class="slide-control prev control-3">‹</label>
+            <label for="slide-1" class="slide-control next control-3">›</label>
+            <ol class="slide-indicador">
+                <li>
+                    <label for="slide-1" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-2" class="slide-circulo">•</label>
+                </li>
+                <li>
+                    <label for="slide-3" class="slide-circulo">•</label>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <a href="./planes/" class="boton-suscripcion1"> Consulta nuestros planes </a> -->
+
+
 
     <!-- SECCION PREGUNTAS -->
     <div class="faqs">
@@ -273,7 +223,6 @@
         </div>
 
         <div class="preguntasfrecuentes">
-
             <div class="acordeon">
                 <div class="item">
                     <h3 class="titulo">¿Qué es Somosfin? </h3>
@@ -309,7 +258,7 @@
                         <p>Somosfin no ofrece préstamos ni ningún otro producto financiero. En caso que necesites
                             información sobre
                             cómo
-                            pagar tus deudas hace click <a href="../contenido/deudas.html">acá</a>.
+                            pagar tus deudas hace click <a href="./contenido/deudas.html">acá.</a>
 
                             Somosfin no hace asesoramientos en inversiones. El servicio de Somosfin incluye
                             acompañamiento y
@@ -352,13 +301,14 @@
 
     </div>
 
-
+    <!-- FOOTER -->
     <footer>
         <div class="form-footer">
             <p> ¿ALGUNA PREGUNTA?</p>
             <h3> ¡Hablemos! </h3>
             <p> Prueba una reunión con nosotros para resolver cualquier duda</p>
-            <a href="https://meetings-eu1.hubspot.com/meetings/agenda-fitmeet/today" target="_blank"> Prueba una reunión gratis </a>
+            <a href="https://meetings-eu1.hubspot.com/meetings/agenda-fitmeet/today" target="_blank"> Prueba una reunión
+                gratis </a>
         </div>
         <div class="footerSF">
             <img src="../assets/somosfin_logo.png" alt="">
@@ -373,7 +323,7 @@
                 </div>
                 <div class="footer2">
                     <h5><strong> Legal </strong></h5>
-                    <p> <a href="../politicas" class="footer-links"> Política de privacidad</a>
+                    <p> <a href="../politicas/" class="footer-links"> Política de privacidad</a>
                     </p>
                     <p> <a href="../tyc/" class="footer-links"> Términos y
                             condiciones</a>
@@ -395,14 +345,8 @@
 
         </div>
 
-        <!-- <span class="ICO"> Somosfin es una compañía registrada en Inglaterra y Gales como Somosfin Ltd (Nro 14249475),
-            36 Streatley Road, Londres NW6 7LS. Somosfin Ltd se encuentra registrada en la Information
-            Commissioner's Office
-            (ICO, Oficina de Protección de Datos del Reino Unido) bajo el número de licencia ZB603110. Somosfin Ltd es
-            un servicio de acompañamiento financiero, y no se encuentra regulado por la Financial Conduct Authority
-            (FCA).
-        </span> -->
     </footer>
+
     <!-- Start of HubSpot Embed Code -->
     <script type="text/javascript" id="hs-script-loader" async defer
         src="//js-eu1.hs-scripts.com/139814969.js"></script>
@@ -410,5 +354,3 @@
 
     <script src="../index.js"></script>
 </body>
-
-</html>

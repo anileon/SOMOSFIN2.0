@@ -1,5 +1,5 @@
 window.addEventListener("scroll", () => {
-    console.log("Scrolling")
+    
     const headerIntro = document.querySelector("#header");
     if (window.scrollY > 100) {
         headerIntro.classList.add("scrolled");
