@@ -113,6 +113,7 @@ header {
 .suscripcion3 p {
     margin: 1rem;
     font-size: 17px;
+    text-align: center;
 }
 
 .suscripcion-carousel a {
@@ -223,7 +224,7 @@ header {
 
 .rectangulo1 p,
 .rectangulo2 p {
-    text-align: start;
+    text-align: center;
     font-family: "Inter";
     font-size: 17px;
     font-style: normal;
@@ -259,7 +260,7 @@ header {
 .gift-box-items {
     display: flex;
     flex-direction: column;
-    padding: 20px 50px 50px;
+    padding: 20px 50px 0px;
 
 }
 
@@ -270,6 +271,14 @@ header {
     gap: 50px;
     width: 450px;
     padding-bottom: 20px;
+    line-height: 130%;
+}
+
+.gift-box-item3 {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 450px;
 
 }
 
@@ -282,12 +291,10 @@ header {
 .tarjetas-gift {
     display: flex;
     align-items: center;
-    padding: 100px 50px 80px;
+    padding: 80px 50px 20px;
     gap: 20px;
     align-self: stretch;
     justify-content: center;
-
-
 }
 
 .historia-usuario1,
@@ -326,21 +333,21 @@ header {
 
 .tarjeta-span {
     background: #FFD98C;
-    padding-left: 25px;
+    text-align: center;
+    line-height: 17px;
+    padding: 10px;
 }
 
 .historia-usuario1 span,
 .historia-usuario2 span,
 .historia-usuario3 span {
 
-    font-size: 12px;
+    font-size: 13px;
     font-style: normal;
-    font-weight: 300;
-    line-height: 22px;
+    font-weight: 500;
+   
     font-family: "Inter";
     width: 150px;
-
-
 }
 
 .img-historia {
@@ -354,6 +361,11 @@ header {
     width: 73px;
     height: 73px;
     border-radius: 73px;
+}
+
+.gift-mobile {
+    display: none;
+
 }
 
 .perfil-historia {
@@ -382,28 +394,36 @@ header {
 .tarjetas-gift .precio {
     display: flex;
     flex-direction: row;
-    background-color: #000;
+    background-color: #1C1C1A;
     color: #ffff;
     border-radius: 0px 0px 15px 15px;
-    gap: 15px;
-    padding: 0px 10px;
+    gap: 10px;
+    padding: 8px;
     align-items: center;
 }
 
 .precio p {
-    margin: 0;
-    font-size: 16px;
+    margin: 0px 0px 0px 5px;
+    font-size: 13px;
     text-align: center;
+    color: #FFF2D9;
+    font-family: 'Inter';
 
 }
 
 .precio span {
     font-size: 11px;
+    color: #FFF2D9;
+    font-family: 'Inter';
 
 }
 
 
-
+.info-texto {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
 /* SECCION PREGUNTAS */
 
 .faqs-intro {
@@ -468,7 +488,7 @@ header {
 
 .preguntasfrecuentes p {
     font-size: 22px;
-    font-family: "ESRebondGrotesque Light";
+    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
@@ -526,9 +546,7 @@ header {
     font-family: "Inter";
     font-size: 18px;
     padding: 0px 10px;
-
 }
-
 
 
 /* Estilo para mostrar el contenido al hacer clic en el título */
@@ -537,13 +555,32 @@ header {
 }
 
 
-
 @media only screen and (max-width: 807px) {
+
+    .experiencia-intro,
+    .suscripcion-intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        padding: 50px 25px 0px;
+    }
 
     .suscripcion-carousel {
         display: none;
     }
 
+    .suscripcion1,
+    .suscripcion2,
+    .suscripcion3 {
+        background-color: #FFE6B2;
+        display: flex;
+        padding: 34px 40px;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+
+    }
 
     .suscripcion1 a,
     .suscripcion2 a,
@@ -566,19 +603,16 @@ header {
     .slide {
         z-index: 0;
         position: relative;
-        margin: 25px;
+        margin: 30px;
         display: flex;
-        background: #FFF9EC;
-
-        /* width: 350px; */
+        width: auto;
     }
 
     .slide-inner {
         display: block;
         position: relative;
         overflow: hidden;
-        width: 100%;
-        /* height: calc( 300px + 3em); */
+
     }
 
     .slide-open:checked+.slide-item {
@@ -604,8 +638,8 @@ header {
         border-radius: 50%;
         cursor: pointer;
         display: none;
-        font-size: 40px;
-        height: 40px;
+        font-size: 30px;
+        height: 30px;
         line-height: 2px;
         position: absolute;
         top: 50%;
@@ -613,7 +647,7 @@ header {
         -ms-transform: translate(0, -50%);
         transform: translate(0, -50%);
         text-align: center;
-        width: 40px;
+        width: 30px;
         z-index: 1;
     }
 
@@ -670,14 +704,48 @@ header {
         color: #428bca;
     }
 
+    .prev,
+    .next {
+
+        background: #18223C;
+        cursor: pointer;
+        padding: 10px;
+        margin-top: 0px;
+        color: #FFC03F;
+        font-weight: bold;
+        transition: 0.6s ease;
+
+    }
+
 
     .suscripcion-carousel {
         flex-direction: column;
     }
 
-    .rectangulo1 p,
+    .rectangulo2 {
+        padding: 0px 0px 20px;
+    }
+
+    .rectangulo1 p {
+        width: auto;
+        padding: 20px 20px 0px 0px;
+        text-align: center;
+
+    }
+
     .rectangulo2 p {
         width: auto;
+        padding: 20px 0px 0px 30px;
+        text-align: center;
+    }
+
+    .gift-desktop {
+        display: none;
+    }
+
+    .gift-mobile {
+        display: flex;
+
     }
 
     .gift-texto h3 {
@@ -714,6 +782,19 @@ header {
         gap: 20px;
     }
 
+    .gift-box-item3 {
+        display: flex;
+        flex-direction: row;
+        width: 250px;
+        gap: 10px;
+    }
+
+    .gift-box-item3 img {
+        width: 140px;
+        height: 115px;
+
+    }
+
     .gift-box-item2 li {
         width: 250px !important;
     }
@@ -721,6 +802,20 @@ header {
     .tarjetas-gift {
         display: flex;
         flex-direction: column;
+        padding: 50px 50px 20px;
 
+    }
+
+    .info-texto {
+        display: flow-root;
+        padding: 20px;
+    }
+
+    .acordeon {
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
 }

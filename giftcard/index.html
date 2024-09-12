@@ -64,7 +64,7 @@
     <!-- End Google Tag Manager (noscript) -->
     <header>
         <div class="headerIntro" id="header">
-            <a href="./">
+            <a href="../">
                 <img class="logoSF" src="../assets/somosfin_logo.png" alt="logoSomosFin">
             </a>
 
@@ -96,23 +96,24 @@
 
         </div>
         <div class="suscripcion-carousel">
+
             <div class="suscripcion1">
                 <img src="../assets/gift-1.png" alt="">
-                <p>Para tu amiga que siempre tiene algo nuevo que comprarse, pero nunca “le alcanza”
+                <p>Para tu amigo que siempre tiene algo nuevo que comprarse, pero nunca “le alcanza”
                 </p>
-                <a href="http://"> Regala orden </a>
+                <a href="#tarjetas-gift"> Regala orden </a>
             </div>
             <div class="suscripcion2">
                 <img src="../assets/gift-2.png" alt="">
                 <p>Para tu hermano que no sabe bien de dónde viene su dinero...
-                    ...ni a dónde se va</p>
-                <a href="http://"> Regala claridad</a>
+                    ni a dónde se va</p>
+                <a href="#tarjetas-gift"> Regala claridad</a>
 
             </div>
             <div class="suscripcion3">
                 <img src="../assets/gift-3.png" alt="">
-                <p>Para tu amigo que le encanta ir de aventuras, pero siempre vuelve endeudado</p>
-                <a href="http://">Regala estructura </a>
+                <p>Para tu amiga que le encanta ir de aventuras, pero siempre vuelve endeudada</p>
+                <a href="#tarjetas-gift">Regala estructura </a>
             </div>
         </div>
 
@@ -127,9 +128,9 @@
             <div class="slide-item">
                 <div class="suscripcion1">
                     <img src="../assets/gift-1.png" alt="">
-                    <p>Para tu amiga que siempre tiene algo nuevo que comprarse, pero nunca “le alcanza”
+                    <p>Para tu amigo que siempre tiene algo nuevo que comprarse, pero nunca “le alcanza”
                     </p>
-                    <a href="http://"> Regala orden </a>
+                    <a href="#tarjetas-gift"> Regala orden </a>
                 </div>
             </div>
             <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
@@ -137,17 +138,17 @@
                 <div class="suscripcion2">
                     <img src="../assets/gift-2.png" alt="">
                     <p>Para tu hermano que no sabe bien de dónde viene su dinero...
-                        ...ni a dónde se va</p>
-                    <a href="http://"> Regala claridad</a>
-    
+                        ni a dónde se va</p>
+                    <a href="#tarjetas-gift"> Regala claridad</a>
+
                 </div>
             </div>
             <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
             <div class="slide-item">
                 <div class="suscripcion3">
                     <img src="../assets/gift-3.png" alt="">
-                    <p>Para tu amigo que le encanta ir de aventuras, pero siempre vuelve endeudado</p>
-                    <a href="http://">Regala estructura </a>
+                    <p>Para tu amiga que le encanta ir de aventuras, pero siempre vuelve endeudada</p>
+                    <a href="#tarjetas-gift">Regala estructura </a>
                 </div>
             </div>
             <label for="slide-3" class="slide-control prev control-1">‹</label>
@@ -166,7 +167,7 @@
                 <li>
                     <label for="slide-3" class="slide-circulo">•</label>
                 </li>
-            </ol> 
+            </ol>
         </div>
     </div>
 
@@ -179,13 +180,18 @@
                 Dale el “empujón” que esa persona necesita para alcanzar sus metas, desde aprender a ahorrar para vivir
                 más en calma, hasta planear un año sabático o empezar un emprendimiento.
             </p>
+
+        </div>
+        <div class="gift-imagenes">
+
         </div>
     </section>
 
     <div class="gift-rectangulos">
         <div class="gift-rectangulo1" style="display: flex; justify-content: start;">
             <div class="rectangulo1">
-                <img src="../assets/gift-rectangulo1.png" alt="">
+                <img src="../assets/gift-rectangulo1.png" class="gift-desktop">
+                <img src="../assets/gift-rectangulo1-mobile.png" class="gift-mobile">
                 <div class="rectangulo1-texto">
                     <p>
                         Con la gift card Somosfin, puedes regalar 'el impulso' que alguien necesita para ordenar sus
@@ -196,7 +202,8 @@
         </div>
         <div class="gift-rectangulo2" style="display: flex; justify-content: end; padding: 20px 0px;">
             <div class="rectangulo2">
-                <img src="../assets/gift-rectangulo2.png" alt="">
+                <img src="../assets/gift-rectangulo2.png" alt="" class="gift-desktop">
+                <img src="../assets/gift-rectangulo2-mobile.png" class="gift-mobile">
                 <div class="rectangulo2-texto">
                     <p>Porque el bienestar financiero es la base para alcanzar cualquier meta. </p>
                 </div>
@@ -205,7 +212,7 @@
     </div>
 
     <div class="gift" style="display: flex; justify-content: center;">
-        <div class="gift-box">
+        <div class="gift-box" id="gift-box">
             <h2> GIFT CARD <img src="../assets/somosfin_logo.png" alt="" width="200px" height="40px"
                     style="vertical-align: top;"></h2>
             <div class="gift-box-items">
@@ -221,92 +228,99 @@
                     <li> <strong> Contenido</strong> sobre finanzas pensada para objetivos y necesidades específicos.
                     </li>
                 </div>
+                <div class="gift-box-item3">
+                    <img src="../assets/giftbox-1.png" width="180px" height="130px">
+
+                    <img src="../assets/giftbox-2.png" width="150px" height="140px">
+                </div>
 
 
             </div>
 
         </div>
     </div>
-  
+
 
     <!-- TARJETAS GIFT -->
     <div class="tarjetas">
+       
+        <div class="tarjetas-gift" id="tarjetas-gift">
 
-        <div class="tarjetas-gift">
-            <div class="historia-usuario1">
+            <div class="historia-usuario1" id="historia-usuario1">
                 <div class="tarjeta-texto">
                     <p> <strong> Da un empujón</strong> </p>
                     <p>Para abrir su visión financiera, sentar bases y discutir un inconveniente puntual</p>
                 </div>
                 <div class="tarjeta-span">
-                    <span> Incluye 1 encuentro con un coach financiero </span>
+                    <span> Incluye 1 encuentro <br>con un coach financiero </span>
                 </div>
                 <div class="boton-tarjeta">
-                    <a href="http://">Regala</a>
+                    <a href="https://info.somosfin.com/giftcard-1">Regala</a>
                 </div>
 
                 <div class="precio">
-                    <p>USDS 30</p>
+                    <p><strong>USD$ 30</strong></p>
                     <span> Recomendado para quien quiere <u>planear</u></span>
                 </div>
             </div>
-            <div class="historia-usuario2">
+            <div class="historia-usuario2" id="historia-usuario2">
                 <div class="tarjeta-texto">
                     <p> <strong> Impulsa la acción </strong> </p>
                     <p> Planear y organizar sus finanzas para un evento (viajes, bodas, mudanzas, etc.)</p>
 
                 </div>
                 <div class="tarjeta-span">
-                    <span> Incluye 2 encuentros con un coach financiero</span>
+                    <span> Incluye 2 encuentros<br> con un coach financiero</span>
                 </div>
 
                 <div class="boton-tarjeta">
-                    <a href="http://">Regala</a>
+                    <a href="https://info.somosfin.com/giftcard-2">Regala</a>
                 </div>
                 <div class="precio">
-                    <p>USDS 50</p>
+                    <p><strong>USD$ 50</strong></p>
                     <span> Recomendado para quien quiere <u> ahorrar</u></span>
                 </div>
             </div>
-            <div class="historia-usuario3">
+            <div class="historia-usuario3" id="historia-usuario3">
                 <div class="tarjeta-texto">
                     <p> <strong> Marca el camino </strong> </p>
                     <p>Proyectar a mediano plazo, para definir metas, ajustar hábitos y tomar acción.</p>
 
                 </div>
                 <div class="tarjeta-span">
-                    <span>Incluye 3 encuentros con un coach financiero</span>
+                    <span>Incluye 3 encuentros <br> con un coach financiero</span>
 
                 </div>
                 <div class="boton-tarjeta">
-                    <a href="http://">Regala</a>
+                    <a href="https://info.somosfin.com/giftcard-3">Regala</a>
                 </div>
                 <div class="precio">
-                    <p>USDS 80</p>
+                    <p><strong>USD$ 80 </strong></p>
                     <span> Recomendado para quien quiere <u>invertir</u></span>
                 </div>
             </div>
-            <div class="historia-usuario3">
+            <div class="historia-usuario3" id="historia-usuario3">
                 <div class="tarjeta-texto">
                     <p> <strong> Acerca la meta </strong> </p>
                     <p>Construir un hábito y empezar a ver los primeros resultados de sus acciones.</p>
-      
+
                 </div>
                 <div class="tarjeta-span">
-                    <span style="background: #FFD98C;">Incluye 4 encuentros con un coach financiero</span>
- 
+                    <span style="background: #FFD98C;">Incluye 4 encuentros <br> con un coach financiero</span>
+
                 </div>
-               <div class="boton-tarjeta">
-                    <a href="http://">Regala</a>
+                <div class="boton-tarjeta">
+                    <a href="https://info.somosfin.com/giftcard-4">Regala</a>
                 </div>
                 <div class="precio">
-                    <p>USDS 100</p>
+                    <p><strong>USD$ 100</strong></p>
                     <span style="font-size: 11px;">Recomendado para quien quiere <u>emprender</u></span>
                 </div>
             </div>
         </div>
-        <p style="display: flex; justify-content: center;padding:20px;">Si tienes dudas o consultas, puedes escribirnos
-            a info@somosfin.com o leer nuestros FAQs.</p>
+        <p class="info-texto">Si tienes dudas o consultas, puedes escribirnos
+            a <a href="mailto:info@somosfin.com" style="margin: 0px 5px;color: #1c1c1c;"> info@somosfin.com </a> o leer
+            nuestros FAQs.</p>
 
     </div>
 
@@ -316,7 +330,6 @@
         <div class="faqs-intro">
             <span> PREGUNTAS FRECUENTES </span>
             <h2> ¡Es normal tener preguntas!</h2>
-            <p> Por eso te las hemos juntado todas aquí para que resuelvas tus dudas </p>
         </div>
 
         <div class="preguntasfrecuentes">
@@ -350,7 +363,7 @@
                     </div>
                 </div>
                 <div class="item">
-                    <h3 class="titulo"> ¿Que son las reuniones con un coach financiero? </h3>
+                    <h3 class="titulo"> ¿Qué son las reuniones con un coach financiero? </h3>
                     <div class="contenido">
                         <p>Las reuniones con tu coach son encuentros de 1 h. con un experto en finanzas personales donde
                             conversas cara a cara y en vivo sobre tus inquietudes. Dependiendo la ocasión vas a hablar
