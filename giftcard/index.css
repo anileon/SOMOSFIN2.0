@@ -276,9 +276,7 @@ header {
 
 .gift-box-item3 {
     display: flex;
-    flex-direction: row;
-    gap: 50px;
-    width: 450px;
+    justify-content: center;
 
 }
 
